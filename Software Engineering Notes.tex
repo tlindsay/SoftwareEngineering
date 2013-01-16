@@ -1,0 +1,98 @@
+\documentclass{report}
+\newcommand*{\glossaryname}{Dictionary}
+%\usepackage[nonumberlist]{glossaries}
+%\newcommand{\define}[2]{%
+%  \newglossaryentry{#1}{name=#1,description={#2}}%
+%  \glslink{#1}{}%
+%}
+%\makeglossaries
+
+\author{Patrick Lindsay}
+\title{Software Engineering Notes}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+\part{Notes}
+\chapter{January 15, 2012}
+	\section{Overview}
+	\underline{Software Engineering} - The application of sound engineering practices to software creation and maintenance.
+		\subsection{Software development Life Cycle (Traditional Approach)}
+			\begin{itemize}
+				\item Requirements Phase
+				\item Analysis or Specification Phase
+				\item Design Phase
+				\item Implementation/Integration Phase
+				\item Maintenance Phase
+				\item Retirement
+			\end{itemize}
+		\subsubsection{Requirements Phase}
+			\begin{itemize}
+				\item Determining the \textsc{needs} and \textsc{wants} of the client or customer.
+				\item Determining the constraints of the system.
+			\end{itemize}
+		\subsubsection{Analysis or Specification Phase}
+			\begin{itemize}
+				\item After analyzing the requirements, construct a \emph{specification document} which explicitly describes what the product is to do, and the constraints under which it must operate.
+				\item This includes the description of the input, output, actions, and UI.
+				\item The specification document can be used as part of a contract with the client.
+			\end{itemize}
+			\paragraph{Problems with the Spec Document}
+			\begin{enumerate}
+				\item Ambiguity - one sentence may have more than one interpretation.
+				\item Incompleteness - relevant fact or requirement is left out.
+				\item Contradiction - two places in the spec document are in conflict.
+			\end{enumerate}
+		\subsubsection{Design Phase}
+			\begin{itemize}
+				\item Construct an \emph{Architectural Design}.
+				\item Construct a \emph{Detailed Design}.
+				\item Test for \emph{traceability}.
+			\end{itemize}
+			\begin{enumerate}
+				\item \underline{Architectural Design} - Description of the product in terms of modules.
+				\item \underline{Detailed Design} - Description of each module.
+				\item \underline{Traceability} - each part of the design can be traced to a statement in the specification document.
+			\end{enumerate}
+		\subsubsection{Implementation Phase}
+			\begin{itemize}
+				\item Code each module from the detailed design.
+				\item Programmer tests his/her own code separately.
+				\item Modules are combined and tested by developers.
+				\item Product is tested by SQA group. This is called product testing.
+				\item Project is given to the client for acceptance testing.
+			\end{itemize}
+		\subsubsection{Maintenance Phase}
+			\begin{itemize}
+				\item Corrective Maintenance - bug squashing
+				\item Enhancement Maintenance - Updates
+				\begin{itemize}
+					\item Perfective - client makes new demands
+					\item Adaptive - changes in the environment of the product requires changes in the software.
+				\end{itemize}
+				\item Perform regression testing - insuring that changes have not affected already working functionality.
+			\end{itemize}
+		\subsubsection{Retirement Phase}
+			\begin{itemize}
+				\item Determining if desired changes are too costly.
+				\item Determining if a product is obsolete.
+			\end{itemize}
+	\paragraph{Four Components of the Software Engineering Enterprise}\\
+	The four P's
+	\begin{enumerate}
+		\item Process
+		\item Project
+		\item People
+		\item Product
+	\end{enumerate}
+	\subsection{Process}
+		\begin{itemize}
+			\item The process is sometimes called the lifecycle model or development sequence.
+			\begin{itemize}
+				\item Waterfall
+				\item Spiral
+				\item Incremental Build
+			\end{itemize}
+		\end{itemize}
+\end{document}
