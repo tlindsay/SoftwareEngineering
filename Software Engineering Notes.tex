@@ -1,14 +1,15 @@
 \documentclass{report}
-\newcommand*{\glossaryname}{Dictionary}
-%\usepackage[nonumberlist]{glossaries}
-%\newcommand{\define}[2]{%
-%  \newglossaryentry{#1}{name=#1,description={#2}}%
-%  \glslink{#1}{}%
-%}
-%\makeglossaries
 
 \author{Patrick Lindsay}
 \title{Software Engineering Notes}
+
+\newcommand*{\glossaryname}{Dictionary}
+\usepackage[nonumberlist]{glossaries}
+\newcommand{\define}[2]{%
+ \newglossaryentry{#1}{name=#1, description={#2}}%
+ \glslink{#1}{}%
+}
+\makeglossaries
 
 \begin{document}
 \maketitle
@@ -78,7 +79,7 @@
 				\item Determining if desired changes are too costly.
 				\item Determining if a product is obsolete.
 			\end{itemize}
-	\paragraph{Four Components of the Software Engineering Enterprise}\\
+	\subsection{Four Components of the Software Engineering Enterprise}
 	The four P's
 	\begin{enumerate}
 		\item Process
@@ -86,13 +87,191 @@
 		\item People
 		\item Product
 	\end{enumerate}
-	\subsection{Process}
-		\begin{itemize}
-			\item The process is sometimes called the lifecycle model or development sequence.
+		\subsubsection{Process}
 			\begin{itemize}
-				\item Waterfall
-				\item Spiral
-				\item Incremental Build
+				\item The process is sometimes called the life-cycle model or development sequence.
+				\begin{itemize}
+					\item Waterfall
+					\item Spiral
+					\item Incremental Build
+				\end{itemize}
+				\item Makes use of several process frameworks.
+				\begin{itemize}
+					\item Personal Software Process (PSP)
+					\item Team Software Process (TSP)
+					\item Capability Maturity Model (CMM)
+				\end{itemize}
+				\item Documentation Standards
+				\begin{itemize}
+					\item IEEE
+					\item ANSI
+				\end{itemize}
 			\end{itemize}
-		\end{itemize}
+		\subsubsection{Project}
+			\begin{itemize}
+				\item The set of activities needed to produce the required product.
+				\item Project management is extremely important.
+				\item Many projects are not about developing new products, but maintaining already existing \emph{legacy} systems.
+			\end{itemize}
+		\subsubsection{People}
+			\begin{itemize}
+				\item Team Organization
+				\item Team Management
+				\item Relationship with customer or client
+				\item Relationship with end users
+				\item Communication with upper management
+			\end{itemize}
+		\subsubsection{Product}
+			Includes
+			\begin{itemize}
+				\item Requirement Specification Document
+				\item Design Document
+				\item Source Code
+				\item Executable
+				\item User Manuals
+			\end{itemize}
+\chapter{January 17, 2013}
+	\section{Traditional Software Engineering Process}
+		\subsection{Historical Influences}
+			\begin{itemize}
+				\item Structured programming (Edsger Dijkstra's letter calling "GOTOs" harmful) uses sequence control, iteration, invoking functions
+				\item Object Oriented paradigm: the use of objects with data and functionality which can represent real-world entities.
+			\end{itemize}
+			\textit{Note:\\Silver Bullet ca. 1980s\\ Likened the software crisis to a werewolf.  Object Oriented Paradigm was the Silver Bullet.\\It did not work as expected.}
+			\begin{itemize}
+				\item Design Patterns: stock of reusable design elements (templates)
+			\end{itemize}
+		\subsection{Component Reuse}
+			A component as defined by Meyer is " a program element satisfying:"
+			\begin{enumerate}
+				\item The element may be used by other program elements. (Clients)
+				\item The clients and their authors do not need to be known to the element's author
+			\end{enumerate}
+		\subsection{Key Expectations of Software Engineering}
+			\begin{enumerate}
+				\item Decide in advance what the specific quality measures are to be for the project and product.\\
+					\textit{Predetermine quantitative quality goals.}
+				\item Gather data on all projects to form a basis for estimating future projects.
+				\item All requirements, designs, code and test materials should be freely and easily available to all members of the team.\\
+					\textit{Source code should always be available to all team members in an easily accessible and interpreted way.\\
+								Git, Mercurial, etc.}
+				\item A process should be followed by all team members. \textit{Uniformity}
+					\begin{enumerate}
+						\item Design only against requirements.
+						\item Program only against design.
+						\item Test only against requirements and design.\\
+						\textsc{Always follow the recipe!}
+					\end{enumerate}
+				\item Measure and achieve quality goals.
+			\end{enumerate}
+	\section{Methods}
+		\emph{Be able to draw and discuss these.}
+		\subsection{Waterfall Method}
+			\textsc{See diagram 52.9 on pg 53.}
+			\begin{itemize}
+				\item First described by William\textit{(?)} Royce in 1970.
+				\item No phase is complete until documentation for that phase has been completed and approved by the SQA group.\\
+					\textit{Very orderly; heavy on documentation.}
+				\item Has been used with great success on a variety of products.
+				\item Feedback loops permits modifications to be made to the previous phase.
+			\end{itemize}
+			\subsubsection{Advantages}
+				\begin{enumerate}
+					\item Enforced disciplined approach
+					\item Requirement that documentation be provided at each phase.
+					\item All products of the phase must be checked by SQA.
+					\item Inherent aspect of each phase is testing.
+				\end{enumerate}
+			\subsubsection{Disadvantages}
+				\begin{itemize}
+					\item The resulting specification document may not be able to be understood by the client.
+					\item It can lead to the construction of product that does not meet the client's needs.					
+				\end{itemize}
+		\subsection{Rapid Prototype Model}
+			\textsc{See diagram on pg 55.}
+			Construction of a functional subset of the desired product in order to allow the client and the developer to interact.\\
+			\textit{Keyword is rapid.  This is a thrown-together, proof-of-concept type project; a mock-up.}
+			\subsubsection{Advantages}
+				\begin{itemize}
+					\item The process is linear and possibly faster than the Waterfall Model
+					\item Increases interaction between client and developer.
+				\end{itemize}
+			\subsubsection{Disadvantages}
+				\begin{itemize}
+					\item Client may inaccurately think the product is almost complete when viewing the prototype.
+					\item Developer may attempt to use the prototype as part of the final product.
+				\end{itemize}
+		\subsection{Waterfall-Rapid Prototype Hybrid}
+			May form a hybrid model using the rapid prototype as the first phase in the Waterfall Model in order to increase interaction but allow for feedback loops within the development of the product.
+		\subsection{Incremental Model}
+			Software is implemented, integrated, and tested as a series of incremental builds.\\
+				\textit{Code pieces providing specific functions.}
+			\subsubsection{Advantages}
+				\begin{enumerate}
+					\item Results in builds which can be developed in weeks, not months or years.
+					\item End user need not learn the entire product at one time.
+					\item Client need not pay for the entire product at one time.
+					\item Developer gets paid earlier.\\ (At each build delivery)
+					\item Open-ended design makes maintenance easier.
+					\item Easier to make changes during development.
+				\end{enumerate}
+			\subsubsection{Disadvantages}
+				\begin{enumerate}
+					\item Each new build must fit in without destroying existing builds.\\
+						\textit{Regression Testing}
+					\item Requires more careful to design to make it open to additions.
+					\item Can degenerate to a build and fix product if broken into too few builds.
+				\end{enumerate}
+		\subsection{Spiral Model}
+			\textsc{See Figure 2.12 on pg 63 and Figure 2.13 on pg 65.}
+			\begin{itemize}
+				\item A Waterfall Model with each phase preceded by risk analysis in an attempt to control or resolve risk.
+				\item Each phase is 360º.
+				\item The measure of the radius is the cumulative cost to date.
+				\item The measure of the angle is the progress measure.\\
+					\textit{Each phase is 360º.\\
+								Requires a very experienced engineer.}
+			\end{itemize}
+			\subsubsection{Advantages}
+				\begin{enumerate}
+					\item The emphasis on alternatives and constraints supports the reuse of existing software.
+					\item The incorporation of software quality as a specific objective.
+					\item Answers the question of how much testing should be performed in terms of risks.
+					\item Maintenance is simply another cycle of the spiral, the same as development.
+				\end{enumerate}
+			\subsubsection{Disadvantages}
+				\begin{enumerate}
+					\item Intended exclusively for internal development.\\
+						\textit{Client and developer are members of the same organization.}
+					\item \emph{Applicable only to large-scale projects.}
+					\item Must have developers who are skilled at pinpointing the possible risks.
+				\end{enumerate}
+		\section{Agile Methods}
+			\subsection{General}
+				According to the Agile Manifesto, they value:
+				\begin{itemize}
+					\item Individuals and interactions over processes and tools.
+					\item Working software over comprehensive documentation.
+					\item Customer collaboration over contract negotiation.
+					\item Responsiveness to change over following a plan.\\
+						\textsc{You don't always have to follow the recipe!}
+				\end{itemize}
+				\subsubsection{Traits}
+					\begin{itemize}
+						\item Highly iterative
+						\item Pair programming with a focus on teamwork and ego-less programming.\\
+							\textsc{This is mandatory.}
+						\item Early and planned testing.
+						\item Story cards \textit{Similar to storyboards in movies.}
+						\item Refactoring \textit{Turning working code into better code.}
+						\item Feedback
+					\end{itemize}
+				\subsubsection{Principles Behind the Agile Manifesto}
+					\begin{enumerate}
+						\item Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+						\item Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive disadvantage.
+						\item Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+						\item Business people and developers must work together daily throughout the project.
+						\item Build projects around motivated individuals. Give them the environment and support they need and trust them to get the job done.
+					\end{enumerate}
 \end{document}
