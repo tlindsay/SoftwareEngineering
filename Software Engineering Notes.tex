@@ -142,7 +142,7 @@
 				\item Design Patterns: stock of reusable design elements (templates)
 			\end{itemize}
 		\subsection{Component Reuse}
-			A component as defined by Meyer is " a program element satisfying:"
+			A component as defined by Meyer is "a program element satisfying:"
 			\begin{enumerate}
 				\item The element may be used by other program elements. (Clients)
 				\item The clients and their authors do not need to be known to the element's author
@@ -281,4 +281,228 @@
 						\item The best architectures, requirements, and designs emerge from self-organizing teams.
 						\item At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
 					\end{enumerate}
+	\chapter{January 22, 2013}
+		\section{Refactoring}
+			\begin{itemize}
+				\item Reduce software complexity
+				\item Improve internal structure while preserving the behavior of the code.\\
+					\textit{Prettifying}
+				\item Improve software quality\\
+					\textit{Readability, execution efficiency, size efficiency, etc.}
+				\item Performed in response to "bad smells" in the code, undesirable characteristics\\
+					\textit{Martin Fowler}
+				\item Automated or manual\\
+			\end{itemize}
+		\section{Teams}
+			\underline{Team} - a group of professionals organized in order to complete the task of creating a large software project.
+			\subsection{Team Structure}
+				\subsubsection{Project Factors Related to Structure of the Team}
+					\begin{enumerate}
+						\item Difficulty of the problem
+						\item Size of the program in LOC or Function Points\\
+							\textit{LOC stands for Lines of Code}
+						\item Time the team will stay together
+						\item Degree of modularity for program
+						\item Required quality and reliability
+						\item Rigidity of delivery date
+						\item Degree of communication required
+					\end{enumerate}
+				\subsubsection{Jelled Team}
+					\begin{itemize}
+						\item A group of people which are so tightly knit that the attitude is that the whole is greater than the sum of the parts
+						\item Egos are forgotten and the team becomes important
+						\item Exhibits cohesiveness, team spirit, common definition of success
+						\item Generally more productive, more motivated, and happier
+					\end{itemize}
+				\subsubsection{Why Don't All Teams Jell?}
+					\begin{itemize}
+						\item A frenzied work atmosphere
+						\item High frustration causing friction among team members
+						\item A "fragmented or poorly coordinated" software process
+						\item An unclear definition on the team
+						\item "Continuous and repeated exposure to failure" - M. Jackman \textit{Homeopathic Remedies for Team Toxicity}
+					\end{itemize}
+				\subsubsection{Necessary Team Traits}
+					Personality
+					\begin{itemize}
+						\item Openness - intellectual curiosity
+						\item Conscientiousness - self-discipline, pushing toward goals
+						\item Extroversion - energy, emotions, seek company of others\\
+							\textit{Being a people person}
+						\item Agreeableness - compassionate and cooperative
+						\item Neuroticism - how a person responds to stress, emotional stability
+					\end{itemize}
+				\subsubsection{How to Make Personality Traits Work}
+					\begin{enumerate}
+						\item Recognize people have different types of personalities
+						\item Assemble a diverse team covering a range of personalities
+						\item Create an open, honest, tolerant atmosphere in team meetings
+					\end{enumerate}
+			\subsection{Roles}
+				\begin{itemize}
+					\item \underline{Team Leader} - Responsible for overseeing all aspects of the team project; holds the tie-breaking vote.
+					\item \underline{Technical Lead} - Expert on all technical aspects of the project, in particular the hardware and software used for development.
+					\item \underline{Designer} - Designs the project and breaks the project into smaller pieces (\textit{Modules}) for the programmers.
+					\item \underline{Lead Programmer} - Needs to have an understanding of the project as a whole; organizes all of the other programmers.
+					\item \underline{Technical Writer} - Writes all documentation for the project (\textit{Team meeting minutes, Specification Document, Users' Manual})
+					\item \underline{Configuration Management} - Maintains the code base for the project; could include CVS responsibilities.
+					\item \underline{Quality Assurance} - Writes, maintains, and conducts all testing associated with the project.
+				\end{itemize}
+			\subsection{Organizational Structures}
+				\begin{itemize}
+					\item Democratic Team
+					\item Hierarchical or Chief Programmer
+					\item Team Manager/Team Leader
+					\item Synchronize-and-Stabilize Team
+					\item Agile Team
+				\end{itemize}
+				\subsubsection{Democratic Team}
+					\begin{itemize}
+						\item Group of up to 10 programmers
+						\item Equal partnership with egoless programming
+						\item Works well if the group is small, highly competent
+						\item Problem with who is in charge
+						\item Positive attitude about finding fault
+						\item Good in research environment with difficult problem
+					\end{itemize}
+				\subsubsection{Hierarchical or Chief Programmer}
+					\begin{itemize}
+						\item One overall manager (\textit{Chief Programmer})
+						\item Everyone understands the lines of authority\\
+							\textit{One boss.}
+						\item Team members tend to participate less in decisions; decisions are handed down from above
+						\item May have a Programming Secretary and a Backup Programmer for the Chief Programmer
+						\item Difficult to find one person adept at both managing and programming.
+					\end{itemize}
+				\subsubsection{Team Manager/Team Leader}
+					\textit{See Figure 4.4, pg. 114}
+					\begin{itemize}
+						\item Split the responsibilities of Chief Programmer into Team Manager and Team Leader
+						\item The Team Manager handles the nontechnical management
+						\item The Team Leader deals with the technical issues of the project
+						\item Results in programmers having two bosses
+						\item May be difficult to determine if an issue is technical or nontechnical
+					\end{itemize}
+					\paragraph{Technical Organizational Structure for Large Projects}
+						\begin{itemize}
+							\item One Project Leader oversees several team leaders
+							\item Each team leader has several programmers for which he/she is responsible
+							\item Clear lines of communication\\
+								\textit{Two level structure}
+						\end{itemize}
+				\subsubsection{Synchronize-and-Stabilize Team}
+					\textit{Has been used by Microsoft}
+					\begin{itemize}
+						\item Small team led by a manager and having three to eight developers and three to eight testers working one-to-one with the developers
+						\item Developers are given freedom to design and implement their portions as they wish
+						\item Each day, the partial components are tested and debugged.
+						\item Encourages creativity and innovation yet the daily synchronization keeps the project on track.
+					\end{itemize}
+				\subsubsection{Agile Team}
+					\begin{itemize}
+						\item Work in pairs (\textsc{Mandatory})
+						\item Provide instant review
+						\item Create test cases which are used for daily testing
+						\item Remove the problem if one developer leaves, the knowledge does not disappear about a portion of the project
+					\end{itemize}
+	\chapter{January 24, 2013}
+		\section{Tools for Software Engineers} 
+			\begin{itemize}
+				\item  Analytic (Theoretical) Tools:
+					\begin{enumerate}
+						\item  Stepwise Refinement
+						\item Cost-Benefit Analysis
+						\item Divide-and-Conquer
+						\item Separation of Concerns
+						\item Software Metrics
+					\end{enumerate}
+				\item Software Tools (CASE: Computer-Aided Software Engineering)
+			\end{itemize}
+			\subsection{Analytic Tools}
+				\subsubsection{Stepwise Refinement}
+					\begin{itemize}
+						\item Process whereby a project is successively decomposed into more detailed instructions.
+						\item In each step, a given task is written as a set of subtasks.
+						\item Term was first coined by Niklaus Wirth in 1971.
+						\item Helps to concentrate on relevant aspects of the current development phase and ignore details that need not be considered.
+						\item A postponement of decisions on details until as late as possible.
+						\item Critical to object-oriented paradigm.
+					\end{itemize}
+				\subsubsection{Cost-Benefit Analysis}
+					\begin{itemize}
+						\item Comparing estimated future benefits against future costs for a certain decision.
+						\item Problems occur in that intangible benefits may be hard to quantify.
+						\item May use past experience to project the estimates for benefits or costs.
+					\end{itemize}
+				\subsubsection{Divide-and-Conquer}
+					\begin{itemize}
+						\item Most agree this is the oldest analytical tool used in Software Engineering.
+						\item Break a large problem into smaller subprograms that should be easier to solve.
+						\item Idea used in the Unified Process.
+						\item Good concept but no details in the how... \textsc{GET THIS BULLET}
+						\item \textit{Key difference from Stepwise Refinement is that Divide-and-Conquer does not necessarily procrastinate details.}
+					\end{itemize}
+				\subsubsection{Separation of Concerns}
+					\begin{itemize}
+						\item First introduced by Dijkstra in 1974.
+						\item Process of breaking a software project into components which overlap as little as possible in relationship to functionality.
+						\item Regression faults are minimized.\\
+							\textit{If every component does one function (High Cohesion), making changes won't affect a lot of things.}
+						\item Components are more reusable.
+					\end{itemize}
+				\subsubsection{Software Metrics}
+					Measurements used to indicate:
+					\begin{itemize}
+						\item Size (LOC - Lines of Code)
+						\item Duration (Months, years)
+						\item Effort (Person-Months)
+						\item Quality (Fault Density - Faults/1000LOC)
+						\item Efficiency (Faults/Unit of time)
+						\item Reliability (Mean time between failures)
+					\end{itemize}
+					Product/Process
+			\subsection{CASE Tools}
+				\begin{itemize}
+					\item UpperCASE or front-end tools - used in the requirements, analysis and design workflows
+					\item LowerCASE or back-end tools - used in the implementation and maintenance activities
+				\end{itemize}
+				\subsubsection{Types of CASE Tools}
+					\begin{itemize}
+						\item Data Dictionary - computerized list of all data defined within the product (type and location defined)\\
+							\textit{Could be Upper or LowerCASE}
+						\item Consistency Checker - tool which checks that everything in the design is in the specification document and everything in the specification document is in the design.
+						\item Report Generator - tool which generates code needed for producing a report.
+						\item Screen Generator - tool which generates the code necessary for a data capture screen.
+						\item Structured Editor - a text editor which is designed to understand the structure of a program in a programming language, aiding in syntax fault prevention or early detection.
+						\item Pretty Printer or Formatter - code often included with the structured editor which makes use of the language syntax structure to display the code in a standard manner (indenting, highlighting reserved words or comments)\\
+							\textit{Try Sublime Text 2!}
+						\item On-line Interface Checker - editor know every subprogram declared within the product and their parameter lists.
+						\item Operating System Front End - tool which allows the programmer to give commands to the operating system from within the editor.
+						\item Source Level Debugger \textit{LowerCASE}
+						\item Interactive Source Level Debugger \textit{LowerCASE}
+						\item Version Control Tool - keeps detailed record of each version of the project.\\
+							\textit{Check out Git with GitHub or BitBucket!}
+						\item Configuration Control Tool - manages multiple variations. \textit{LowerCASE}
+					\end{itemize}
+				\subsubsection{Grouped CASE Tools}
+					\begin{itemize}
+						\item CASE Workbench - collection of CASE tools that together support one or two activities.
+						\item CASE Environment - collection of CASE tools which support the entire software process.
+					\end{itemize}
+		\section{Software Versions}
+			\begin{itemize}
+				\item During maintenance, at least two versions of the product will exist: the old version and the new version.
+				\item \underline{Revision} - what we call the new version.
+				\item \underline{Configuration} - the specific version of each artifact from which a given version of the complete product is built.
+			\end{itemize}
+	\chapter{January 29, 2013}	
+		\section{Testing}
+			\underline{Testing} - continual process carried on during the entire life cycle of software.\\
+			\paragraph{V and V}
+				\begin{itemize}
+					\item Verification - determining wheter a phase has been correctly carried out (at the end of the phase) 
+					\item Validation - testing just before a product is delivered to the client to determine if it satisfies the specifications
+				\end{itemize}
+			\paragraph{Use of the Term Testing}
+				We use the term testing instead of V and V because they imply that testing can wait until certain points in the process like the end of a phase, when testing must occur throughout the process.
 \end{document}
