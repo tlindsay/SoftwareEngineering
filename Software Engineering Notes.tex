@@ -496,13 +496,175 @@
 				\item \underline{Configuration} - the specific version of each artifact from which a given version of the complete product is built.
 			\end{itemize}
 	\chapter{January 29, 2013}	
+		\section{Phases of Unified Process}
+			\subsection{Inception Phase}
+				\begin{itemize}
+					\item Determine whether it's worthwhile to develop the target product
+					\item Determine economic viability
+					\item Steps
+						\begin{enumerate}
+							\item Obtain domain knowledge
+							\item Build business model\\
+								\textit{Understand how the client operates within the domain.}
+						\end{enumerate}
+				\end{itemize}
+				Questions to consider:
+				\begin{enumerate}
+					\item Is the proposed software cost effective?
+					\item Can the proposed software be delivered on time?
+					\item What risks are involved in developing the software and how can these risks be mitigated?
+				\end{enumerate}
+				Identify Risks
+				\begin{enumerate}
+					\item Technical risks
+					\begin{itemize}
+						\item Necessary experience?
+						\item New hardware needed and will it be delivered on time?
+						\item Software tools needed?
+					\end{itemize}
+					\item Not getting the requirements right
+					\item Not getting the architecture (design) right
+				\end{enumerate}
+				\subsubsection{Documentation in the Inception Phase}
+					\begin{itemize}
+						\item Initial version of the domain model
+						\item Initial version of the business model
+							\textit{How the client operates in their domain.}
+						\item Initial version of the requirements artifacts
+						\item Preliminary version of the analysis artifacts
+						\item Preliminary version of the architecture
+						\item Initial list of risks
+						\item Initial use cases
+						\item Plan for elaboration phase
+						\item Initial version of the business case\\
+							\textit{Document that describes the cost-effectiveness of taking on the project}
+					\end{itemize}
+			\subsection{Elaboration Phase}
+				\begin{itemize}
+					\item The aim is to refine the requirements, refine the architecture, monitor the risks, refine the business case, and produce the software project management plan.
+					\item Major activities are refinements of the previous phase.
+				\end{itemize}
+				\subsubsection{Elaboration Phase Deliverables}
+					\begin{itemize}
+						\item Completed domain model
+						\item Completed business model
+						\item Completed requirements artifact
+						\item Completed analysis artifacts
+						\item Updated version of the architecture
+						\item Updated list of risks
+						\item Software Project Management Plan (SPMP)
+						\item Completed business case
+					\end{itemize}
+			\subsection{Construction Phase} 
+				\begin{itemize}
+					\item Aim is to produce the first operational-quality version of the product (beta release)
+					\item Emphasis is on implementation and testing
+					\item Components are coded and unit tested
+					\item Components are combined (integrated) and tested again.
+				\end{itemize}
+				\subsubsection{Construction Phase Deliverables}
+					\begin{itemize}
+						\item Initial user manual and other manuals as needed
+						\item All the artifacts of the beta release version
+						\item Completed architecture
+						\item Updated risk list
+						\item Software Project Management Plan (SPMP)
+						\item Updated business case if needed
+					\end{itemize}
+			\subsection{Transition Phase}
+				\begin{itemize}
+					\item Aim is to ensure that the client's requirements have been met
+					\item Driven by feedback from the locations where the beta version is installed and tested
+					\item Manuals are completed
+					\item Faults are corrected
+					\item Discover any unidentified risks
+				\end{itemize}
+				\subsubsection{Transition Phase Deliverables}
+					\begin{itemize}
+						\item All the artifacts of the final version
+						\item Completed manuals
+					\end{itemize}
+					Refer to pg. 88 of the book.
 		\section{Testing}
 			\underline{Testing} - continual process carried on during the entire life cycle of software.\\
 			\paragraph{V and V}
 				\begin{itemize}
-					\item Verification - determining wheter a phase has been correctly carried out (at the end of the phase) 
+					\item Verification - determining whether a phase has been correctly carried out (at the end of the phase) 
 					\item Validation - testing just before a product is delivered to the client to determine if it satisfies the specifications
 				\end{itemize}
 			\paragraph{Use of the Term Testing}
 				We use the term testing instead of V and V because they imply that testing can wait until certain points in the process like the end of a phase, when testing must occur throughout the process.
+			\subsection{Fault, Failure, Error, Defect}
+				\begin{itemize}
+					\item Fault - human mistake created in software
+					\item Failure - observed incorrect behavior due to a fault
+					\item Error - amount by which a result is incorrect 
+					\item Defect - generic term used to encompass fault, failure, and error
+				\end{itemize}
+		\section{Software Quality}
+			\begin{itemize}
+				\item Extent to which the product satisfies its specifications
+				\item Adherence to specifications
+				\item Must be ensured at all times, not just added at the end of the product
+				\item Every software developer must be personally responsible for the quality of their work.
+			\end{itemize}
+			\subsection{Software Quality Assurance}
+				SQA group oversees the quality throughout the process
+				\begin{itemize}
+					\item Adherence to standards
+					\item Correctness of each workflow
+					\item Independent of the development team
+				\end{itemize}
+			\subsection{Categories of Testing}
+				\begin{enumerate}
+					\item Non-Execution-Based Testing (Reviews)
+						\begin{itemize}
+							\item Walkthroughs
+								\begin{itemize}
+									\item 4-6 person team  (Experience Senior Staff)
+									\begin{itemize}
+										\item Manager of the current workflow
+										\item Member of the team on the current workflow
+										\item Member of the team on the subsequent workflow
+										\item Client Representative
+										\item SQA group member
+									\end{itemize}
+									\item Material distributed to allow participants to prepare
+									\item Each reviewer develops two lists: things they don't understand, things they think are incorrect
+									\item Purpose is to find faults in a workflow or document such as the specification or the design document and create a list of faults for later correction
+									\\\\
+									Ways to conduct a walkthrough
+									\begin{enumerate}
+										\item Participant Driven - members present their lists to the team creating the document being tested which respond to each item (clarify questions, repair faults)
+										\item Document Driven - chair walks the members through the document with stops at the unclear or possible faults
+									\end{enumerate}
+								\end{itemize}
+							\item Inspections
+								\begin{itemize}
+									\item Proposed by Fagan in 1976 for testing designs and 
+									\item Consists of five formal steps
+									\item Conducted by team of size 4-5
+										\begin{itemize}
+											\item Moderator - both manager and leader of the inspection team
+											\item Reader - leads team through the document
+											\item Recorder - produces written report of detected faults
+											\item Implementer/Tester
+										\end{itemize}
+									\item Steps:
+										\begin{enumerate}
+											\item Overview - presentation by one individual responsible for producing it after which given to participants
+											\item Preparation - participants try to understand the document using lists of fault types and create checklist
+											\item Inspection - one participant walks through using the checklists with the moderator creating a written report
+											\item Rework - using the written report of faults, the individuals which created the document resolve the faults
+											\item Follow-Up - moderator makes sure that everything in the report has been corrected or addressed and that no new faults were created in repairing the original faults
+										\end{enumerate}
+								\end{itemize}
+						\end{itemize}
+					\paragraph{Comparison of Walkthroughs and Inspections}
+						\begin{itemize}
+							\item Walkthroughs are 2 steps and inspections are more formal 5 steps 
+							\item Inspections generally take longer but the extra time and effort spent can be cost effective
+						\end{itemize}
+					\item Execution-Based Testing
+				\end{enumerate}
 \end{document}
