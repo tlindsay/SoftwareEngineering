@@ -660,11 +660,113 @@
 										\end{enumerate}
 								\end{itemize}
 						\end{itemize}
-					\paragraph{Comparison of Walkthroughs and Inspections}
-						\begin{itemize}
-							\item Walkthroughs are 2 steps and inspections are more formal 5 steps 
-							\item Inspections generally take longer but the extra time and effort spent can be cost effective
-						\end{itemize}
+						\paragraph{Comparison of Walkthroughs and Inspections}
+							\begin{itemize}
+								\item Walkthroughs are 2 steps and inspections are more formal 5 steps 
+								\item Inspections generally take longer but the extra time and effort spent can be cost effective
+							\end{itemize}
 					\item Execution-Based Testing
 				\end{enumerate}
+	\chapter{January 31, 2013}
+		\section{Testing}
+			\subsection{Strengths of Using Reviews}
+				\begin{enumerate}
+					\item Effective way to find faults in the specification document or the design document.
+					\item Faults detected earlier in the process are less costly to repair or remove.
+				\end{enumerate}
+			\subsection{Metrics for Inspections}
+				\begin{enumerate}
+					\item Inspection Rate - the number of pages inspected per hour (for specifications and designs) or lines of code inspected per hour (for code inspection)
+					\item Fault Density - number of faults per page or number of faults per KLOC
+					\item Fault Detection Rate - number of major and minor faults detected per hour
+					\item Fault Detection Efficiency - number of major and minor faults detected per person-hour
+				\end{enumerate}
+				These methods are used to determine whether the inspection process is working.
+			\paragraph{Goals and Limits of testing}
+				\begin{itemize}
+					\item Goal: To maximize the number and severity of defects found per dollar spent
+					\item Limit: Testing can only determine the presence of defects, never their absence. Correctness proofs are the only manner of proving the absence of defects.
+				\end{itemize}
+			\subsection{Levels of Testing}
+				\begin{enumerate}
+					\item Unit Testing - The earliest type of testing, testing the parts of the application (functions, modules, module combinations)
+					\item Integration Testing - Validates the overall functionality of each stage
+					\item Acceptance Testing - Validates the final product
+				\end{enumerate}
+			\subsection{Steps for Unit Testing}
+				\begin{enumerate}
+					\item Plan the general approach, resources, and schedule.
+					\item Determine requirements-based characteristics to be tested.
+					\item Refine the general plan.
+					\item Design the set of tests.
+					\item Implement the refined plan and design.
+					\item Execute the test procedures.
+					\item Check for termination.
+				\end{enumerate}
+			\subsection{Test Types}
+				\begin{itemize}
+					\item Black Box - Check correct output for given input as specified by the requirements
+					\item White Box (or Clear Box) - Design test of cover all paths through the application.
+					\item Gray Box - Consider limited details of the application with some of the Black Box techniques.
+				\end{itemize}
+				\subsubsection{Black Box Testing}
+					\begin{itemize}
+						\item Equivalence Partitioning - Division of the test input data into subsets
+						\item Boundary Value Analysis - Testing for values which separate acceptable and unacceptable ranges.
+					\end{itemize}
+				\subsubsection{White Box Testing}
+					\begin{itemize}
+						\item Statement Coverage - Every statement should be executed by at least one test.
+						\item Decision Coverage - Every branch of decision statements is executed.
+					\end{itemize}
+			\subsection{Planning Unit Tests}
+				\begin{enumerate}
+					\item Decide what the units are to be and who will test them.
+					\item Decide how unit tests will be documented.
+					\item Determine the extent of unit testing.
+					\item Decide how and where to get the test input.
+					\item Estimate the resources required.
+					\item Arrange to track time, number, type, and source of defects.
+				\end{enumerate}
+			\subsection{Unit Testing of Methods}
+				\begin{enumerate}
+					\item Verify operation at normal parameter values.
+					\item Verify operation at limit parameter values.
+					\item Verify operation outside parameter values.
+					\item Ensure that all instructions execute.
+					\item Check all paths - both sides of branches.
+					\item Check the use of all called objects.
+					\item Verify the handling of all data structures.
+					\item Verify the handling of all files.
+					\item Check normal termination of all loops.
+					\item Check abnormal termination of all loops.
+					\item Check normal termination of all recursion.
+					\item Check abnormal termination of all recursion.
+					\item Verify the handling of all error conditions.
+					\item Check timing and synchronization.
+					\item Verify all hardware dependencies.
+				\end{enumerate}
+			\subsection{Class Testing}
+				\begin{enumerate}
+					\item Method Combination test
+					\item Attribute-Oriented Test
+					\item Testing Class Invariants
+					\item State-based Tests
+				\end{enumerate}
+			\subsection{What is Tested During Execution Based Testing?}
+				\begin{itemize}
+					\item Utility - How useful it is or how it meets the needs of the user
+					\item Reliability - Measuring the mean time between failures; reliable software rarely fails
+					\item Robustness - valid output for valid input, error conditions handled correctly (satisfying the specifications)
+					\item Performance - How well it meets the constraints
+					\item Correctness - Valid output for valid input
+				\end{itemize}
+	\chapter{February 5, 2013}
+		\section{Modules}
+			Lexically contiguous sequence of statements bounded by boundary symbols, having an associated name.
+			\subsection{Cohesion and Coupling}
+				\begin{itemize}
+					\item \underline{Cohesion} - Measures of software quality relating to modules or classes.
+					\item \underline{Coupling} - Measures used to quantify characteristics like reusability, reliability, etc.
+				\end{itemize}
 \end{document}
