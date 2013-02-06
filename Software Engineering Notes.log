@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  31 JAN 2013 18:57
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  5 FEB 2013 19:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -255,12 +255,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 634--637
 Chapter 6.
 [29
 
-] [30] [31]
+] [30] [31] [32]
+Chapter 7.
+[33
+
+] [34]
 
 Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
-[32] (./Software Engineering Notes.aux) ) 
+[35] (./Software Engineering Notes.aux) ) 
 Here is how much of TeX's memory you used:
  2482 strings out of 493488
  35154 string characters out of 3141326
@@ -278,10 +282,10 @@ type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti10.pfb>
-Output written on "Software Engineering Notes.pdf" (33 pages, 167928 bytes).
+Output written on "Software Engineering Notes.pdf" (36 pages, 174215 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
+ 152 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

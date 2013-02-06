@@ -98,3 +98,17 @@
 \contentsline {subsection}{\numberline {6.1.7}Unit Testing of Methods}{31}
 \contentsline {subsection}{\numberline {6.1.8}Class Testing}{31}
 \contentsline {subsection}{\numberline {6.1.9}What is Tested During Execution Based Testing?}{32}
+\contentsline {chapter}{\numberline {7}February 5, 2013}{33}
+\contentsline {section}{\numberline {7.1}Modules}{33}
+\contentsline {paragraph}{Cohesion and Coupling}{33}
+\contentsline {subsection}{\numberline {7.1.1}Cohesion}{33}
+\contentsline {subsubsection}{Types of Cohesion}{33}
+\contentsline {paragraph}{Notes on Cohesion}{34}
+\contentsline {subsection}{\numberline {7.1.2}Coupling}{34}
+\contentsline {subsubsection}{Types of Coupling}{34}
+\contentsline {subsection}{\numberline {7.1.3}Abstraction}{34}
+\contentsline {subsection}{\numberline {7.1.4}Data Encapsulation}{35}
+\contentsline {subsubsection}{Procedural Abstraction}{35}
+\contentsline {subsubsection}{Information Hiding}{35}
+\contentsline {subsubsection}{Abstract Data Type (ADT)}{35}
+\contentsline {subsubsection}{Three Concepts Important to the OO Paradigm}{35}

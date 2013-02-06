@@ -764,9 +764,77 @@
 	\chapter{February 5, 2013}
 		\section{Modules}
 			Lexically contiguous sequence of statements bounded by boundary symbols, having an associated name.
-			\subsection{Cohesion and Coupling}
+			\paragraph{Cohesion and Coupling}
 				\begin{itemize}
 					\item \underline{Cohesion} - Measures of software quality relating to modules or classes.
 					\item \underline{Coupling} - Measures used to quantify characteristics like reusability, reliability, etc.
 				\end{itemize}
+			\subsection{Cohesion}
+				\begin{itemize}
+					\item The degree of interaction within a module
+					\item A description of the logical relationship between elements of a class
+					\item The type of relationship that exists among the elements of each software entity.
+				\end{itemize}
+				\subsubsection{Types of Cohesion}
+					\begin{enumerate}
+						\item \underline{Coincidental} - No meaningful relationships among the elements of an entity. Difficult to describe the module's function(s)
+						\item \underline{Logical} - Performs a series of related actions, one of which is selected by the calling module.
+						\item \underline{Classical or Temporal} - Performs a series of actions related in time
+						\item \underline{Procedural} - Performs a series of actions related by the sequence of steps to be followed by the product.
+						\item \underline{Communicational} - Performs a series of actions related by the sequence of steps to be followed by the product performed on the same data.
+						\item \underline{Informational} - Performs multiple functions, each with its own entry point, with independent code for each action, all performed on the same data structure.
+						\item \underline{Functional} - Performs a single function or action.
+					\end{enumerate}
+					\textit{(Note: \#3-5 are sometimes called Flowchart Cohesion.)}
+				\paragraph{Notes on Cohesion}
+					\begin{itemize}
+						\item As the cohesion number increases, so do the cohesion level and the desirability.
+						\item Functional cohesion enhances reusability.
+						\item Maintenance is easier to perform on a module with functional cohesion.
+					\end{itemize}
+			\subsection{Coupling}
+				\begin{itemize}
+					\item The degree of interaction between two modules.
+					\item The type of relationship that exists between two software entities.
+				\end{itemize}
+				\subsubsection{Types of Coupling}
+					\begin{enumerate}
+						\item \underline{Content} - One software entity references the contents of another entity
+						\item \underline{Common} - Software entities reference a shared global data structure
+						\item \underline{External} - Software entities reference the same externally declared symbol
+						\item \underline{Control} - One entity passes control elements as arguments to another entity
+						\item \underline{Stamp} - A data structure is passed but not entirely used.
+						\item \underline{Data} - One entity calls another and are not coupled as described above (every parameter passed is simple or a data structure entirely used)
+					\end{enumerate}
+			\subsection{Abstraction}
+				\begin{enumerate}
+					\item Data Abstraction
+					\item Procedural Abstraction
+				\end{enumerate}
+				A means of achieving stepwise refinement by suppressing unnecessary details and accentuating relevant details.
+			\subsection{Data Encapsulation}
+				\begin{itemize}
+					\item Data structure along with the actions or operations to be performed on that structure
+					\item An example of abstraction
+				\end{itemize}
+				\subsubsection{Procedural Abstraction}
+					Conceptualizing in terms of giving a name to a set of high-level actions which are specified by the body of the procedure.
+				\subsubsection{Information Hiding}
+					\begin{itemize}
+						\item Better named "detail hiding"
+						\item Concept introduced by Parnas
+						\item Hiding the implementation details of a module from another using it
+					\end{itemize}
+				\subsubsection{Abstract Data Type (ADT)}
+					\begin{itemize}
+						\item Specification of a data type along with the operations on that type
+						\item Supports both data and procedural abstraction
+					\end{itemize}
+				\subsubsection{Three Concepts Important to the OO Paradigm}
+					\begin{enumerate}
+						\item Inheritance*
+						\item Polymorphism*
+						\item Dynamic Binding
+					\end{enumerate}
+					\textit{* - These are especially important}
 \end{document}
