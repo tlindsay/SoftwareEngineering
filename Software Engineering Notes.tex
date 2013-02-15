@@ -16,7 +16,7 @@
 \tableofcontents
 \newpage
 \part{Notes}
-\chapter{January 15, 2012}
+\chapter{Software Life-Cycle Model}
 	\section{Overview}
 	\underline{Software Engineering} - The application of sound engineering practices to software creation and maintenance.
 		\subsection{Software development Life Cycle (Traditional Approach)}
@@ -130,8 +130,7 @@
 				\item Executable
 				\item User Manuals
 			\end{itemize}
-\chapter{January 17, 2013}
-	\section{Traditional Software Engineering Process}
+	\chapter{Traditional Software Engineering Process}
 		\subsection{Historical Influences}
 			\begin{itemize}
 				\item Structured programming (Edsger Dijkstra's letter calling "GOTOs" harmful) uses sequence control, iteration, invoking functions
@@ -281,131 +280,130 @@
 						\item The best architectures, requirements, and designs emerge from self-organizing teams.
 						\item At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
 					\end{enumerate}
-	\chapter{January 22, 2013}
-		\section{Refactoring}
+			\subsection{Refactoring}
+				\begin{itemize}
+					\item Reduce software complexity
+					\item Improve internal structure while preserving the behavior of the code.\\
+						\textit{Prettifying}
+					\item Improve software quality\\
+						\textit{Readability, execution efficiency, size efficiency, etc.}
+					\item Performed in response to "bad smells" in the code, undesirable characteristics\\
+						\textit{Martin Fowler}
+					\item Automated or manual\\
+				\end{itemize}
+	\chapter{Teams}
+		\underline{Team} - a group of professionals organized in order to complete the task of creating a large software project.
+		\section{Team Structure}
+			\subsection{Project Factors Related to Structure of the Team}
+				\begin{enumerate}
+					\item Difficulty of the problem
+					\item Size of the program in LOC or Function Points\\
+						\textit{LOC stands for Lines of Code}
+					\item Time the team will stay together
+					\item Degree of modularity for program
+					\item Required quality and reliability
+					\item Rigidity of delivery date
+					\item Degree of communication required
+				\end{enumerate}
+			\subsection{Jelled Team}
+				\begin{itemize}
+					\item A group of people which are so tightly knit that the attitude is that the whole is greater than the sum of the parts
+					\item Egos are forgotten and the team becomes important
+					\item Exhibits cohesiveness, team spirit, common definition of success
+					\item Generally more productive, more motivated, and happier
+				\end{itemize}
+			\subsection{Why Don't All Teams Jell?}
+				\begin{itemize}
+					\item A frenzied work atmosphere
+					\item High frustration causing friction among team members
+					\item A "fragmented or poorly coordinated" software process
+					\item An unclear definition on the team
+					\item "Continuous and repeated exposure to failure" - M. Jackman \textit{Homeopathic Remedies for Team Toxicity}
+				\end{itemize}
+			\subsection{Necessary Team Traits}
+				Personality
+				\begin{itemize}
+					\item Openness - intellectual curiosity
+					\item Conscientiousness - self-discipline, pushing toward goals
+					\item Extroversion - energy, emotions, seek company of others\\
+						\textit{Being a people person}
+					\item Agreeableness - compassionate and cooperative
+					\item Neuroticism - how a person responds to stress, emotional stability
+				\end{itemize}
+			\subsection{How to Make Personality Traits Work}
+				\begin{enumerate}
+					\item Recognize people have different types of personalities
+					\item Assemble a diverse team covering a range of personalities
+					\item Create an open, honest, tolerant atmosphere in team meetings
+				\end{enumerate}
+		\section{Roles}
 			\begin{itemize}
-				\item Reduce software complexity
-				\item Improve internal structure while preserving the behavior of the code.\\
-					\textit{Prettifying}
-				\item Improve software quality\\
-					\textit{Readability, execution efficiency, size efficiency, etc.}
-				\item Performed in response to "bad smells" in the code, undesirable characteristics\\
-					\textit{Martin Fowler}
-				\item Automated or manual\\
+				\item \underline{Team Leader} - Responsible for overseeing all aspects of the team project; holds the tie-breaking vote.
+				\item \underline{Technical Lead} - Expert on all technical aspects of the project, in particular the hardware and software used for development.
+				\item \underline{Designer} - Designs the project and breaks the project into smaller pieces (\textit{Modules}) for the programmers.
+				\item \underline{Lead Programmer} - Needs to have an understanding of the project as a whole; organizes all of the other programmers.
+				\item \underline{Technical Writer} - Writes all documentation for the project (\textit{Team meeting minutes, Specification Document, Users' Manual})
+				\item \underline{Configuration Management} - Maintains the code base for the project; could include CVS responsibilities.
+				\item \underline{Quality Assurance} - Writes, maintains, and conducts all testing associated with the project.
 			\end{itemize}
-		\section{Teams}
-			\underline{Team} - a group of professionals organized in order to complete the task of creating a large software project.
-			\subsection{Team Structure}
-				\subsubsection{Project Factors Related to Structure of the Team}
-					\begin{enumerate}
-						\item Difficulty of the problem
-						\item Size of the program in LOC or Function Points\\
-							\textit{LOC stands for Lines of Code}
-						\item Time the team will stay together
-						\item Degree of modularity for program
-						\item Required quality and reliability
-						\item Rigidity of delivery date
-						\item Degree of communication required
-					\end{enumerate}
-				\subsubsection{Jelled Team}
-					\begin{itemize}
-						\item A group of people which are so tightly knit that the attitude is that the whole is greater than the sum of the parts
-						\item Egos are forgotten and the team becomes important
-						\item Exhibits cohesiveness, team spirit, common definition of success
-						\item Generally more productive, more motivated, and happier
-					\end{itemize}
-				\subsubsection{Why Don't All Teams Jell?}
-					\begin{itemize}
-						\item A frenzied work atmosphere
-						\item High frustration causing friction among team members
-						\item A "fragmented or poorly coordinated" software process
-						\item An unclear definition on the team
-						\item "Continuous and repeated exposure to failure" - M. Jackman \textit{Homeopathic Remedies for Team Toxicity}
-					\end{itemize}
-				\subsubsection{Necessary Team Traits}
-					Personality
-					\begin{itemize}
-						\item Openness - intellectual curiosity
-						\item Conscientiousness - self-discipline, pushing toward goals
-						\item Extroversion - energy, emotions, seek company of others\\
-							\textit{Being a people person}
-						\item Agreeableness - compassionate and cooperative
-						\item Neuroticism - how a person responds to stress, emotional stability
-					\end{itemize}
-				\subsubsection{How to Make Personality Traits Work}
-					\begin{enumerate}
-						\item Recognize people have different types of personalities
-						\item Assemble a diverse team covering a range of personalities
-						\item Create an open, honest, tolerant atmosphere in team meetings
-					\end{enumerate}
-			\subsection{Roles}
+		\section{Organizational Structures}
+			\begin{itemize}
+				\item Democratic Team
+				\item Hierarchical or Chief Programmer
+				\item Team Manager/Team Leader
+				\item Synchronize-and-Stabilize Team
+				\item Agile Team
+			\end{itemize}
+			\subsection{Democratic Team}
 				\begin{itemize}
-					\item \underline{Team Leader} - Responsible for overseeing all aspects of the team project; holds the tie-breaking vote.
-					\item \underline{Technical Lead} - Expert on all technical aspects of the project, in particular the hardware and software used for development.
-					\item \underline{Designer} - Designs the project and breaks the project into smaller pieces (\textit{Modules}) for the programmers.
-					\item \underline{Lead Programmer} - Needs to have an understanding of the project as a whole; organizes all of the other programmers.
-					\item \underline{Technical Writer} - Writes all documentation for the project (\textit{Team meeting minutes, Specification Document, Users' Manual})
-					\item \underline{Configuration Management} - Maintains the code base for the project; could include CVS responsibilities.
-					\item \underline{Quality Assurance} - Writes, maintains, and conducts all testing associated with the project.
+					\item Group of up to 10 programmers
+					\item Equal partnership with egoless programming
+					\item Works well if the group is small, highly competent
+					\item Problem with who is in charge
+					\item Positive attitude about finding fault
+					\item Good in research environment with difficult problem
 				\end{itemize}
-			\subsection{Organizational Structures}
+			\subsection{Hierarchical or Chief Programmer}
 				\begin{itemize}
-					\item Democratic Team
-					\item Hierarchical or Chief Programmer
-					\item Team Manager/Team Leader
-					\item Synchronize-and-Stabilize Team
-					\item Agile Team
+					\item One overall manager (\textit{Chief Programmer})
+					\item Everyone understands the lines of authority\\
+						\textit{One boss.}
+					\item Team members tend to participate less in decisions; decisions are handed down from above
+					\item May have a Programming Secretary and a Backup Programmer for the Chief Programmer
+					\item Difficult to find one person adept at both managing and programming.
 				\end{itemize}
-				\subsubsection{Democratic Team}
+			\subsection{Team Manager/Team Leader}
+				\textit{See Figure 4.4, pg. 114}
+				\begin{itemize}
+					\item Split the responsibilities of Chief Programmer into Team Manager and Team Leader
+					\item The Team Manager handles the nontechnical management
+					\item The Team Leader deals with the technical issues of the project
+					\item Results in programmers having two bosses
+					\item May be difficult to determine if an issue is technical or nontechnical
+				\end{itemize}
+				\paragraph{Technical Organizational Structure for Large Projects}
 					\begin{itemize}
-						\item Group of up to 10 programmers
-						\item Equal partnership with egoless programming
-						\item Works well if the group is small, highly competent
-						\item Problem with who is in charge
-						\item Positive attitude about finding fault
-						\item Good in research environment with difficult problem
+						\item One Project Leader oversees several team leaders
+						\item Each team leader has several programmers for which he/she is responsible
+						\item Clear lines of communication\\
+							\textit{Two level structure}
 					\end{itemize}
-				\subsubsection{Hierarchical or Chief Programmer}
-					\begin{itemize}
-						\item One overall manager (\textit{Chief Programmer})
-						\item Everyone understands the lines of authority\\
-							\textit{One boss.}
-						\item Team members tend to participate less in decisions; decisions are handed down from above
-						\item May have a Programming Secretary and a Backup Programmer for the Chief Programmer
-						\item Difficult to find one person adept at both managing and programming.
-					\end{itemize}
-				\subsubsection{Team Manager/Team Leader}
-					\textit{See Figure 4.4, pg. 114}
-					\begin{itemize}
-						\item Split the responsibilities of Chief Programmer into Team Manager and Team Leader
-						\item The Team Manager handles the nontechnical management
-						\item The Team Leader deals with the technical issues of the project
-						\item Results in programmers having two bosses
-						\item May be difficult to determine if an issue is technical or nontechnical
-					\end{itemize}
-					\paragraph{Technical Organizational Structure for Large Projects}
-						\begin{itemize}
-							\item One Project Leader oversees several team leaders
-							\item Each team leader has several programmers for which he/she is responsible
-							\item Clear lines of communication\\
-								\textit{Two level structure}
-						\end{itemize}
-				\subsubsection{Synchronize-and-Stabilize Team}
-					\textit{Has been used by Microsoft}
-					\begin{itemize}
-						\item Small team led by a manager and having three to eight developers and three to eight testers working one-to-one with the developers
-						\item Developers are given freedom to design and implement their portions as they wish
-						\item Each day, the partial components are tested and debugged.
-						\item Encourages creativity and innovation yet the daily synchronization keeps the project on track.
-					\end{itemize}
-				\subsubsection{Agile Team}
-					\begin{itemize}
-						\item Work in pairs (\textsc{Mandatory})
-						\item Provide instant review
-						\item Create test cases which are used for daily testing
-						\item Remove the problem if one developer leaves, the knowledge does not disappear about a portion of the project
-					\end{itemize}
-	\chapter{January 24, 2013}
+			\subsection{Synchronize-and-Stabilize Team}
+				\textit{Has been used by Microsoft}
+				\begin{itemize}
+					\item Small team led by a manager and having three to eight developers and three to eight testers working one-to-one with the developers
+					\item Developers are given freedom to design and implement their portions as they wish
+					\item Each day, the partial components are tested and debugged.
+					\item Encourages creativity and innovation yet the daily synchronization keeps the project on track.
+				\end{itemize}
+			\subsection{Agile Team}
+				\begin{itemize}
+					\item Work in pairs (\textsc{Mandatory})
+					\item Provide instant review
+					\item Create test cases which are used for daily testing
+					\item Remove the problem if one developer leaves, the knowledge does not disappear about a portion of the project
+				\end{itemize}
+	\chapter{Tools}
 		\section{Tools for Software Engineers} 
 			\begin{itemize}
 				\item  Analytic (Theoretical) Tools:
@@ -495,7 +493,7 @@
 				\item \underline{Revision} - what we call the new version.
 				\item \underline{Configuration} - the specific version of each artifact from which a given version of the complete product is built.
 			\end{itemize}
-	\chapter{January 29, 2013}	
+	\chapter{UNIFIED PROCESS - I'm not sure what to put here.}
 		\section{Phases of Unified Process}
 			\subsection{Inception Phase}
 				\begin{itemize}
@@ -585,15 +583,15 @@
 						\item Completed manuals
 					\end{itemize}
 					Refer to pg. 88 of the book.
-		\section{Testing}
-			\underline{Testing} - continual process carried on during the entire life cycle of software.\\
-			\paragraph{V and V}
-				\begin{itemize}
-					\item Verification - determining whether a phase has been correctly carried out (at the end of the phase) 
-					\item Validation - testing just before a product is delivered to the client to determine if it satisfies the specifications
-				\end{itemize}
-			\paragraph{Use of the Term Testing}
-				We use the term testing instead of V and V because they imply that testing can wait until certain points in the process like the end of a phase, when testing must occur throughout the process.
+	\chapter{Testing}
+		\underline{Testing} - continual process carried on during the entire life cycle of software.\\
+		\paragraph{V and V}
+			\begin{itemize}
+				\item Verification - determining whether a phase has been correctly carried out (at the end of the phase) 
+				\item Validation - testing just before a product is delivered to the client to determine if it satisfies the specifications
+			\end{itemize}
+		\paragraph{Use of the Term Testing}
+			We use the term testing instead of V and V because they imply that testing can wait until certain points in the process like the end of a phase, when testing must occur throughout the process.
 			\subsection{Fault, Failure, Error, Defect}
 				\begin{itemize}
 					\item Fault - human mistake created in software
@@ -667,8 +665,7 @@
 							\end{itemize}
 					\item Execution-Based Testing
 				\end{enumerate}
-	\chapter{January 31, 2013}
-		\section{Testing}
+		\section{Reviews}
 			\subsection{Strengths of Using Reviews}
 				\begin{enumerate}
 					\item Effective way to find faults in the specification document or the design document.
@@ -761,7 +758,7 @@
 					\item Performance - How well it meets the constraints
 					\item Correctness - Valid output for valid input
 				\end{itemize}
-	\chapter{February 5, 2013}
+	\chapter{Modules and Objects}
 		\section{Modules}
 			Lexically contiguous sequence of statements bounded by boundary symbols, having an associated name.
 			\paragraph{Cohesion and Coupling}
@@ -837,4 +834,402 @@
 						\item Dynamic Binding
 					\end{enumerate}
 					\textit{* - These are especially important}
+	\chapter{Reusability and Portability}
+		\section{Reuse}
+			\underline{Reuse} - Taking components of one product to be used in a different product with different functionality
+			\subsection{Types of Reuse}
+				\begin{enumerate}
+					\item \textbf{Accidental} or \textbf{Opportunistic} Reuse - Developers realize that a component from a previously constructed product can be reused in the new project on which they are currently working.
+					\item \textbf{Deliberate} or \textbf{Systematic} Reuse - Components are constructed with the purpose that they will be reused
+				\end{enumerate}
+				\subsubsection{Advantages of Deliberate Reuse}
+					\begin{itemize}
+						\item Components will be constructed with reuse in mind will be:
+							\begin{itemize}
+								\item more likely to be easier and safer to use.
+								\item better documented.
+								\item more thoroughly tested.
+								\item adhere to a uniformity of style.
+								\item more easily maintained.
+							\end{itemize}
+					\end{itemize}
+				\subsubsection{Disadvantages of Deliberate Reuse}
+					\begin{itemize}
+						\item Can be expensive to the company
+						\item Can be more time consuming
+							\begin{itemize}
+								\item Design
+								\item Testing
+								\item Documentation
+							\end{itemize}
+						\item May not be reused after time spent making it reusable
+					\end{itemize}
+			\subsection{Impediments to Reuse}
+				\begin{enumerate}
+					\item Ego
+					\item Uncertainty of quality\\
+						\textit{(Distrust of others' abilities)}
+					\item Economic Reasons\\
+						\textit{Afraid you might lose your job/Company won't need you anymore}
+					\item Retrieval\\
+						\textit{Can't find it}
+					\item Expense\\
+						\textit{To the company}
+					\item Legality
+					\item For COTS (\textit{Commercial Off-the-Shelf}) components - limited extensibility/modifiability
+				\end{enumerate}
+				May occur during design as well as implementation
+			\subsection{Types of Design Reuse}
+				\begin{enumerate}
+					\item Company that develops software in one specific domain may set up repository of design components. (Library/Toolkit)
+						\begin{enumerate}
+							\item Tested module designs incorporated
+							\item Reduce design time (and likely implementation)
+							\item Increase design quality
+						\end{enumerate}
+					\item Application Frameworks
+					\item Design Patterns
+					\item Software Architecture
+				\end{enumerate}
+		\section{Design Patterns}
+			\begin{itemize}
+				\item Christopher Alexander - "Each pattern describes a problem which occurs over and over again in our environment, and then describes the core of the solution to that problem, in such a way that you can use this solution a million times over, without ever doing it the same way twice."
+				\item Each design pattern is a solution to a general problem in the form of a set of interacting classes that have to be customized to create a specific design.
+				\item Four Essential Elements
+					\begin{enumerate}
+						\item Pattern name
+						\item Problem it solves
+						\item Solution - elements making up the design
+						\item Consequences - results and trade offs of applying	
+					\end{enumerate}
+			\end{itemize}
+			\subsection{List of Design Patterns}
+				\begin{enumerate}
+					\item Abstract Factory
+					\item Adapter
+					\item Bridge
+					\item Builder
+					\item Chain of Responsibility
+					\item Command
+					\item Composite
+					\item Decorator
+					\item Façade
+					\item Factory Method
+					\item Flyweight
+					\item Interpreter
+					\item Iterator
+					\item Mediator
+					\item Memento
+					\item Observer
+					\item Prototype
+					\item Proxy
+					\item Singleton
+					\item State
+					\item Strategy
+					\item Template Method
+					\item Visitor
+				\end{enumerate}
+		\section{Portability}
+			Software which is significantly easier to modify to run on another platform than it is to code from scratch.
+			\subsection{Impediments to Portability}
+				\begin{enumerate}
+					\item Hardware Incompatibilities
+					\item Operating System Incompatibilities
+					\item Difference in numeric capabilities (\textit{32-bit v. 64-bit})
+					\item Compiler Incompatibilities
+					\item Data Formats
+				\end{enumerate}
+	\chapter{Planning and Estimating}
+		\section{Cost}
+			\subsection{Cost Estimation}
+				Can occur at:
+					\begin{itemize}
+						\item Conceptualization Phase
+						\item Requirements Analysis
+						\item Design Phase
+						\item Implementation Phase
+						\item Implementation and Testing
+					\end{itemize}
+			\subsection{Cost Types}
+				\begin{itemize}
+					\item Internal Cost - cost to developer
+						\begin{itemize}
+							\item Salaries
+							\item Hardware Support
+							\item Software Support
+						\end{itemize}
+					\item External Cost - ???
+				\end{itemize}
+		\section{Size}
+			\paragraph{Metrics for Size}
+				\begin{enumerate}
+					\item LOC - Lines of Code
+					\item KDSI - Thousand Delivered Source Instructions
+					\item Number of Operands and Operators
+					\item FFP - Files, Flows, and Processes
+					\item FP - Function Points
+				\end{enumerate}
+			\subsection{LOC and KDSI}
+				\subsubsection{Problems With Using LOC or KDSI}
+					\begin{enumerate}
+						\item Creation of source code is only small part of total effort
+						\item Same product in different languages would have different LOC
+						\item Some languages have no concept of a line of code (LISP)
+						\item Question as to whether only to count executable statements (omit declarations, comments, JCL (Job Control Language), reused code?)
+						\item Not all code that is written is delivered
+						\item Must wait until the project is finished to get the measurement
+						\item Code generation tools
+					\end{enumerate}
+			\subsection{FFP}
+				\begin{itemize}
+					\item \underline{File} - collection of logically or physically related records, permanently resident in the product (transaction and temporary files do not count here)
+					\item \underline{Flow} - data interface between the product and the environment (screen or report)
+					\item \underline{Process} functionally defined logical or arithmetic manipulation of the data (sorting, validating, updating, etc.)
+				\end{itemize}
+			\subsection{FP}
+				\underline{Function Points} - used to assess the size of a project
+				\begin{enumerate}
+					\item Identify the functions the application must have.
+					\item For each function, compute:
+						\begin{enumerate}
+							\item External Inputs - EI
+							\item External Outputs - EO
+							\item External Inquiries - EIN
+							\item Internal Logical Files - ILF
+							\item External Logical Files - ELF
+						\end{enumerate}
+					\item Multiply the numbers from step 2 by specified values (see p. 274) This results in an unadjusted function point value (UFP).
+					\item Compute the Technical Complexity Factor (TCF) using the effect of the 14 general characteristics of the project which have been assigned a value from 0-\textit{not present or no influence} to 5-\textit{strong influence throughout}. The 14 numbers are summed using the Total Degree of Influence (DI). Then the TCF is given by .65+.01*DI (see p.274)
+					\item FP = UFP * TCF
+				\end{enumerate}
+				\subsubsection{Converting Function Points to Code}
+					Once the function point value is computed, an estimate for the lines of code by multiplying by a constant associated with the language we plan to use for the application.
+				\subsubsection{Techniques for Estimation of Size}
+					\begin{itemize}
+						\item Use comparisons with past jobs
+						\item Use function point methods
+							\begin{itemize}
+								\item Compute unadjusted function points
+								\item Apply adjustment process
+							\end{itemize}
+						\item Use LOC estimates to compute labor and duration using COCOMO formulas.
+						\end{itemize}
+			\subsection{COCOMO}
+				\begin{itemize}
+					\item Estimation method devised by Boehm in 1981
+					\item COnstructive COst MOdel
+					\item Depends on the LOC of a project
+					\item 
+				\end{itemize}
+		\section{Cost Estimation Techniques}
+			\begin{enumerate}
+				\item Expert Judgment by Analogy - Consult a number of experts who have completed similar type projects.
+				\item Bottom-up - Estimate each component from the leaf level and add, going upward in design.
+				\item Algorithmic Cost Estimation - Use FF or FP and comu.
+			\end{enumerate}
+			\subsection{Software Project Management Plan
+				\begin{itemize}
+					\item Plan which describes the proposed software development in full detail. (\textit{See p. 285})
+					\item Consists of three main components:
+					\begin{enumerate}
+						\item The work to be completed
+						\item The resources to be used to do the work
+						\item Funding
+					\end{enumerate}
+				\end{itemize}}
+				\subsubsection{Work to be Completed}
+					\begin{enumerate}
+						\item Project function - work which continues throughout the project and is not related to any specific workflow.
+						\item Activity - work which is related to a specific phase or workflow and has a definite beginning and end date
+					\end{enumerate}
+				\subsubsection{Resources}
+					\begin{enumerate}
+						\item People (varies during the duration of the project)
+						\item Hardware
+						\item Support Software (include CASE tools)
+					\end{enumerate}
+\part{Useful Information}
+	\chapter{Test 1}
+		\begin{itemize}
+			\item Draw and discuss waterfall and life-cycle model
+		\end{itemize}
+	\chapter{Agile Presentations}
+		\section{Kanban}\\
+			\textit{Ankur Patel}
+			\begin{itemize}
+				\item Japanese for 'Visual Card'
+				\item David Anderson, 2004-2007
+				\item Kanban method was originally created by Taiichi Onho in the late 1940s.
+				\item Implement business concept of JIT at TPS\\
+					\textit{Anderson adapted it to software}
+				\item Lots of whiteboards, sticky notes, and sections of each software dev cycle to increase visibility of workflow.
+				\item Columns and subcolumns
+					\begin{itemize}
+						\item Columns for phases
+						\item Subcolumns for 'To-Do', 'Doing', 'Done'
+					\end{itemize}
+				\item Bottlenecks the team's efforts.
+				\item Flexible
+			\end{itemize}
+		\section{Agile Scaling Model}\\
+			\textit{Cody Herring}
+			\begin{itemize}
+				\item Way of beginning the software development process.
+				\item Scott Ambler
+				\item Three Categories
+					\begin{itemize}
+						\item Core Agile Development
+							\begin{itemize}
+								\item Beginning role in the development cycle
+							\end{itemize}
+						\item Agile Delivery
+							\begin{itemize}
+								\item Repeatable results with just the right amount of ceremony for the situations they face.
+							\end{itemize}
+						\item Agile at Scale
+					\end{itemize}
+				\item First step to take
+					\begin{itemize}
+						\item Adopt disciplined agile delivery life cycle
+					\end{itemize}
+				\item Complementary strategy to other methodologies
+			\end{itemize}
+		\section{Agile Software Development}\\
+			\textit{Jared Cox}
+			\begin{itemize}
+				\item James Highsmith and Sam Bayer
+				\item Came from RSD
+					\begin{itemize}
+						\item Like RSD, but more iterative
+					\end{itemize}
+				\item Six Characteristics
+					\begin{itemize}
+						\item Mission-driven
+						\item Component-based
+						\item Iterative
+						\item Time-boxing
+						\item Risk-driven
+						\item Change-tolerant
+					\end{itemize}
+				\item Three Step Life Cycle
+					\begin{itemize}
+						\item Speculate
+						\item Collaborate
+						\item Learn
+					\end{itemize}
+			\end{itemize}
+		\section{Crystal Methods}\\
+			\textit{James Reatherford}
+			\begin{itemize}
+				\item Alistair Cockburn
+				\item Series of related methods for projects of various size and complexity
+				\item Incremental
+				\item Real crystals have two main properties: color and hardness
+				\begin{itemize}
+					\item Color - size of team
+					\item Hardness - complexity of the project in terms of cost of failure
+				\end{itemize}
+				\item Very much like agile manifesto
+			\end{itemize}
+		\section{Crystal Clear}\\
+			\textit{Ashutosh Karki}
+			\begin{itemize}
+				\item Lowest hardness of Crystal Family
+				\item Osmotic communication
+				\item Optimized
+			\end{itemize}
+		\section{Agile Modeling}\\
+			\textit{CJ Stokes}
+			\begin{itemize}
+				\item Scott Ambler
+				\item Values
+					\begin{itemize}
+						\item Communication
+						\item Simplicity
+						\item Feedback
+						\item Courage
+						\item Humility
+					\end{itemize}
+				\item Principles
+					\begin{itemize}
+						\item Software is primary
+						\item Enabling the next effort is secondary
+						\item Travel light
+						\item Assume simplicity
+						\item Embrace change
+						\item Incremental change
+						\item Model with a purpose
+						\item Multiple models
+						\item Quality work
+						\item Rapid feedback
+					\end{itemize}
+				\item Practices
+					\begin{itemize}
+						\item Iterative and Incremental Modeling
+						\item Teamwork
+					\end{itemize}
+			\end{itemize}
+		\section{Extreme Programming}
+			\subsection{Phillip Clark}
+				\begin{itemize}
+					\item Kent Beck
+					\item Heavily based on test-driven development and iterative and incremental development
+					\item Takes common sense principles to an extreme level
+					\item Coding is the key activity.
+					\item System architecture is not documented (The code is the documentation)
+					\item Four values
+						\begin{enumerate}
+							\item Communication
+							\item Simplicity
+								\begin{itemize}
+									\item "Live for today"
+								\end{itemize}
+							\item Feedback
+								\begin{itemize}
+									\item "Learning to drive"
+								\end{itemize}
+							\item Courage
+						\end{enumerate}
+					\item Twelve Core Practices
+						\begin{enumerate}
+							\item The Planning Game
+							\item Small releases
+							\item Metaphor
+							\item Simple design
+							\item Testing
+							\item Refactoring
+							\item Pair programming
+							\item Collective ownership
+							\item Continuous integration
+							\item 40-hour week
+								\begin{itemize}
+									\item Not allowed to work overtime two weeks in a row.
+								\end{itemize}
+							\item On-site customer
+							\item Coding standards
+						\end{enumerate}
+					\item Cool features
+						\begin{itemize}
+							\item Food
+							\item Parties after releases
+							\item Interesting office arrangement
+							\item No documentation
+						\end{itemize}
+				\end{itemize}
+			\subsection{Michael Debs}
+				\begin{itemize}
+					\item Working software over comprehensive documentation
+					\item Responding to change over following a plan
+					\item Simplicity
+					\item Refactoring
+					\item Pair programming
+					\item Collective ownership
+						\begin{itemize}
+							\item Trust
+						\end{itemize}
+					\item Small Development teams
+				\end{itemize}
+		\section{DSDM}
+			\textit{Patrick Lindsay}
+		\section{Scrum}
 \end{document}
