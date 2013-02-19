@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  5 FEB 2013 19:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  18 FEB 2013 23:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -180,12 +180,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 3.
  [1
 
-])
+]
+[2])
 \tf@toc=\write5
 \openout5 = `"Software Engineering Notes.toc"'.
 
-
-[2] [3
+ [3] [4
 
 ]
 Chapter 1.
@@ -201,7 +201,7 @@ Overfull \hbox (1.07054pt too wide) in paragraph at lines 38--39
 m/it/10 spec-i-fi-ca-tion doc-u-ment \OT1/cmr/m/n/10 which
  []
 
-[4
+[5
 
 ]
 Overfull \hbox (1.44495pt too wide) in paragraph at lines 73--74
@@ -209,31 +209,31 @@ Overfull \hbox (1.44495pt too wide) in paragraph at lines 73--74
 uires changes
  []
 
-[5] [6] [7]
+[6] [7] [8]
 Chapter 2.
-[8
+[9
 
-] [9] [10]
+] [10] [11]
 Missing character: There is no Â in font cmr10!
 Missing character: There is no º in font cmr10!
 Missing character: There is no Â in font cmti10!
 Missing character: There is no º in font cmti10!
- [11] [12]
-Overfull \hbox (12.08388pt too wide) in paragraph at lines 281--282
+ [12] [13]
+Overfull \hbox (12.08388pt too wide) in paragraph at lines 280--281
 []\OT1/cmr/m/n/10 The best ar-chi-tec-tures, re-quire-ments, and de-signs emerg
 e from self-organizing
  []
 
-[13]
-Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
-[14
+[14]
+Chapter 3.
+[15
 
-] [15] [16] [17] [18]
+] [16] [17] [18]
 Chapter 4.
 [19
 
@@ -241,38 +241,64 @@ Chapter 4.
 Chapter 5.
 [23
 
-] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 589--590
-
- []
-
-[25] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 634--637
-
- []
-
-[27] [28]
+] [24] [25]
 Chapter 6.
-[29
 
-] [30] [31] [32]
+Underfull \hbox (badness 10000) in paragraph at lines 587--588
+
+ []
+
+[26
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 632--635
+
+ []
+
+[27] [28] [29] [30] [31]
 Chapter 7.
-[33
+[32
 
-] [34]
+] [33] [34]
+Chapter 8.
+[35
+
+] [36]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no § in font cmr10!
+ [37] [38]
+Chapter 9.
+[39
+
+] [40] [41] [42] [43
+
+]
+Chapter 10.
+[44
+
+]
+Chapter 11.
+[45
+
+] [46] [47] [48] [49]
+Underfull \hbox (badness 10000) in paragraph at lines 1279--1281
+
+ []
+
+[50] [51] [52] [53]
 
 Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
-[35] (./Software Engineering Notes.aux) ) 
+[54] (./Software Engineering Notes.aux) ) 
 Here is how much of TeX's memory you used:
  2482 strings out of 493488
  35154 string characters out of 3141326
- 107603 words of memory out of 3000000
+ 109603 words of memory out of 3000000
  5793 multiletter control sequences out of 15000+200000
  9754 words of font info for 34 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,6n,34p,1473b,341s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,6n,34p,1473b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/font
@@ -282,10 +308,10 @@ type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti10.pfb>
-Output written on "Software Engineering Notes.pdf" (36 pages, 174215 bytes).
+Output written on "Software Engineering Notes.pdf" (55 pages, 199040 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
+ 215 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
