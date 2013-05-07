@@ -1,4 +1,5 @@
 \documentclass{report}
+\usepackage{graphicx}
 
 \author{Patrick Lindsay}
 \title{Software Engineering Notes}
@@ -437,7 +438,7 @@
 						\item Most agree this is the oldest analytical tool used in Software Engineering.
 						\item Break a large problem into smaller subprograms that should be easier to solve.
 						\item Idea used in the Unified Process.
-						\item Good concept but no details in the how... \textsc{GET THIS BULLET}
+						\item Good concept but no details on how to divide the problem
 						\item \textit{Key difference from Stepwise Refinement is that Divide-and-Conquer does not necessarily procrastinate details.}
 					\end{itemize}
 				\subsubsection{Separation of Concerns}
@@ -493,7 +494,7 @@
 				\item \underline{Revision} - what we call the new version.
 				\item \underline{Configuration} - the specific version of each artifact from which a given version of the complete product is built.
 			\end{itemize}
-	\chapter{UNIFIED PROCESS - I'm not sure what to put here.}
+	\chapter{Unified Process}
 		\section{Phases of Unified Process}
 			\subsection{Inception Phase}
 				\begin{itemize}
@@ -1048,6 +1049,867 @@
 						\item Hardware
 						\item Support Software (include CASE tools)
 					\end{enumerate}
+	\chapter{Requirements}
+		\section{Requirements Analysis}
+			\begin{itemize}
+				\item Missed this. Get it from someone.
+			\end{itemize}
+			\subsection{Levels of Requirements Analysis}
+				\begin{itemize}
+					\item \underline{C-Requirements} - Documents what the customer wants and needs in a language clear to the customer (Customer Requirements)
+					\item \underline{D-Requirements} - Documents the requirements in a specific, structured form (Developer Requirements)
+				\end{itemize}
+			\subsection{Why Write Requirements Documents?}
+				Without such a document...
+				\begin{enumerate}
+					\item Team does not really know the goal it is trying to accomplish.
+					\item Team cannot inspect its work properly
+					\item Team cannot test its work properly
+					\item Team cannot track its productivity
+					\item Team cannot get adequate data on its practices
+					\item Team cannot predict the size and effort of the next job
+					\item Team cannot satisfy customer
+				\end{enumerate}
+			\subsection{Each Requirement Must Be...}
+				\begin{itemize}
+					\item Expressed properly
+					\item Made easily accessible
+					\item Numbered
+					\item Accompanied by tests that verify it
+					\item Provided for in the design
+					\item Accounted for by code
+					\item Tested in isolation
+					\item Tested in concert with other requirements
+					\item Validated by testing after the application has been built
+				\end{itemize}
+			\subsection{Requirements Analysis Process}
+				\begin{enumerate}
+					\item Identify the customer
+					\item Interview customer representatives
+						\begin{itemize}
+							\item Identify wants and needs
+							\item Exploit tools for expression
+							\item Sketch GUI's
+							\item Identify hardware
+						\end{itemize}
+					\item Write C-requirements (Review with customer)
+					\item Inspect C-Requirements
+					\item Build D-requirements (After customer approval)
+				\end{enumerate}
+		\section{Sources of Requirements}
+			\begin{itemize}
+				\item Customer Interviews
+				\item Copies of currently used forms or software
+				\item Customer site visit
+				\item Surveillance cameras
+				\item Rapid prototype
+			\end{itemize}
+		\section{Describing C-Requirements}
+			\begin{enumerate}
+				\item Use Cases
+				\item Data Flow Diagrams
+				\item State-Transition Diagrams
+				\item Drafting User Interfaces (Rapid Prototype)
+			\end{enumerate}
+			\subsection{Use Cases}
+				A concept invented by Jacobson used to express customer requirements in the form of interaction between an actor (type of user) and the application. It is identified by its name and by the type of user of the application (actor). Similar to a user story in Extreme Programming. \textit{See Pg. 318, Fig. 11.1}
+			\subsection{Data Flow Diagrams}
+				\begin{itemize}
+					\item Requirements presented as the flow of data among processing elements
+					\item Nodes represent processing units
+					\item Arrows denote the flow of data
+					\item Data stores are denoted by a pair of horizontal lines
+					\item External agencies are represented as rectangles
+				\end{itemize}
+			\subsection{State-Transition Diagrams}
+				\begin{itemize}
+					\item Application exists as states or situations
+					\item States are represented as nodes
+					\item Transitions between states are represented with arrows
+					\item Can also be used for a design tool
+				\end{itemize}
+			\subsection{Developing User Interfaces}
+				\begin{enumerate}
+					\item Know your user
+						\begin{enumerate}
+							\item Level of knowledge and experience
+								\begin{enumerate}
+									\item Computer literacy
+									\item System experience
+									\item Experience with similar applications
+									\item Education
+									\item Reading level
+									\item Typing skill
+								\end{enumerate}
+							\item Physical characteristics
+								\begin{enumerate}
+									\item Age
+									\item Gender
+									\item Handedness
+									\item Physical handicap
+								\end{enumerate}
+							\item Characteristics of user's tasks and jobs
+								\begin{enumerate}
+									\item Type of use (discretionary v. mandatory)
+									\item Frequency of use
+									\item Turnover rate for employees
+									\item Importance of task
+									\item Repetitiveness of task
+									\item Training anticipated
+									\item Job Category
+								\end{enumerate}
+							\item Psychological characteristics of user
+								\begin{enumerate}
+									\item Probable attitude toward job
+									\item Motivation
+									\item Cognitive style
+										\begin{itemize}
+											\item Verbal v. Spatial
+											\item Analytic v. Intuitive
+											\item Concrete v. Abstract
+										\end{itemize}
+								\end{enumerate}
+						\end{enumerate}
+					\item Understand the purpose of the user interface in terms of the application's overall purpose.
+					\item Understand the principles of good screen design.
+						\begin{enumerate}
+							\item Consistency among screens
+							\item Anticipate where the user will usually start
+							\item Apply a hierarchy to emphasize the order of importance
+							\item Apply principles of aesthetics
+						\end{enumerate}
+					\item Select the appropriate kind of window
+						\begin{enumerate}
+							\item Property window - display properties of an entity
+							\item Dialog window - obtain information (Input)
+							\item Message window - provide information (Output)
+							\item Palette window - present a set of controls
+							\item Pop-up window - amplify information
+						\end{enumerate}
+					\item Develop system menus
+						\begin{enumerate}
+							\item Provide a main menu (between 5 and 9)
+							\item Display all relevant alternatives
+							\item Match the menu structure to the structure of the application's tasks
+						\end{enumerate}
+					\item Select the appropriate device-based controls\\
+						\textit{This refers to the physical means by which the user communicates their desires with the application (Joysticks, trackballs, graphics tablets, touch screens, mice, microphones, and keyboards.)}
+					\item Select the appropriate screen-based controls\\
+						\textit{Icons, buttons, text boxes, radio buttons\\
+								Between 5 and 9, or organized into groups}
+					\item Organize and lay out the window
+					\item Choose appropriate colors
+				\end{enumerate}
+		\section{CASE Tools for Requirements}
+			\begin{itemize}
+				\item Graphical tool for drawing data flow diagrams
+					\begin{itemize}
+						\item + Easier to change a diagram stored in CASE tool than to redraw
+						\item + Details of the product are stored in the CASE tool so the documentation is always available and updated
+						\item - Not always user friendly
+						\item - Almost impossible to program a computer to draw as pleasing a diagram as a human
+					\end{itemize}
+				\item Text Editor
+				\item Survey construction tool
+				\item Screen generator (For rapid prototyping)
+			\end{itemize}
+	\chapter{Writing the Specification Document} % (fold)	
+		\section{Specification Document}
+			\begin{itemize}
+				\item Serves as contract between client and developer
+				\item Must be clear and understandable by the client
+				\item Must be complete and detailed for the design team
+				\item Specifies exactly what the product is to do
+				\item Describes the constraints of the system
+				\item Describes acceptance criteria	Helps team select solution strategy
+			\end{itemize}
+			\subsection{Constraints} % (fold)
+				\begin{enumerate}
+					\item Timing
+					\item Storage
+					\item Security
+					\item Response Time
+					\item Portability
+					\item Reliability
+					\item Parallel Running
+					\item Deadlines
+				\end{enumerate}
+			\subsection{Acceptance Criteria} % (fold)
+				\begin{itemize}
+					\item Set of series of tests which can be used to prove the product satisfies the specifications
+					\item Indicates the developer's job is completed
+					\item May be restatements of the constraints
+				\end{itemize}
+			\subsection{Solution Strategy}
+				\begin{itemize}
+					\item General approach to building the product
+					\item Records are maintained of discarded strategies and why they were discarded. (This will help if the team must justify to SQA why they selected the method they did. It will also aid during maintenance.)
+				\end{itemize}
+		\section{Specification Document Writing Techniques}
+			\begin{enumerate}
+				\item Informal Methods
+					\begin{itemize}
+						\item Natural language, easy to learn
+						\item Easy for client to understand
+						\item Easy to incorporate ambiguities, contradictions
+					\end{itemize}
+				\item Semiformal Methods
+					\begin{itemize}
+						\item More precise than informal
+						\item Client can understand
+						\item Cannot handle timings
+					\end{itemize}
+				\item Formal Methods
+					\begin{itemize}
+						\item Most precise
+						\item Reduce faults
+						\item Support correctness proofs
+						\item Difficult to learn
+						\item Almost impossible for client to understand
+					\end{itemize}
+			\end{enumerate}
+			\subsection{Semiformal Methods}
+				\begin{enumerate}
+					\item Data Flow Diagram (DFD) - Gane and Sarsen's graphical technique
+					\item Problem Statement Language/Problem Statement Analyzer (PSL/PSA) - Computer aided technique
+					\item Structured Analysis/Design Technique (SADT) - box and arrow diagramming language
+					\item Software Requirements Engineering Model (SREM) - useful for specifying real-time systems and embedded systems
+					\item Entity Relationship Modeling (ERM) - data oriented technique useful for specifying databases.
+				\end{enumerate}
+			\subsection{Formal Methods}
+				Easier to validate and code
+				\begin{enumerate}
+					\item Finite State Machine (FSM)
+					\item Petri Net - Carl Adam Petri in 1962
+					\item Z \textit{/'zed/} - Formal specification language
+					\item Anna - formal specification language for Ada
+					\item Vienna Definition Language (VDL) - based on denotational semantics
+				\end{enumerate}
+				\subsubsection{Petri Net}
+					\textit{See pg. 382}
+					\begin{itemize}
+						\item Useful for concurrent processes and synchronization
+						\item Nondeterministic
+						\item C = P, T, I, O
+							\begin{itemize}
+								\item P - Finite set of \textbf{places}	
+								\item T - Finite set of \textbf{transitions}
+								\item I - \textbf{Input} function mapping T to bags of places
+								\item O - \textbf{Output} function mapping T to bags of places
+							\end{itemize}
+					\end{itemize}
+				\subsubsection{Z}
+					Four sections:
+					\begin{itemize}
+						\item Given sets (sets that need not be defined in detail), data types and constants
+						\item State Definition\\
+							\textit{Schema - group of variable declarations together with a list of predicates that constrain the possible values of the variables}
+						\item Initial State - description of the system when first turned on
+						\item Operations
+					\end{itemize}
+					\paragraph{Analysis of Z}
+						\begin{itemize}
+							\item Easy to find faults in specification written in Z
+							\item Requires writer to be concise
+							\item Allows for proofs
+							\item Not too difficult to learn
+							\item Has decreased the cost of software development
+							\item Easy to translate into natural language for the client
+						\end{itemize}
+		\section{Testing during Specification Phase}
+			\begin{itemize}
+				\item Walkthroughs
+				\item Inspections
+				\item Correctness proofs
+			\end{itemize}
+		\section{CASE Tools}
+			\begin{itemize}
+				\item Graphical drawing tool for DFD or Petri Nets
+				\item Data dictionary
+				\item Combined drawing tool and data dictionary (And possibly a consistency checker)
+					\begin{itemize}
+						\item Analyst/Designer
+						\item Software through pictures
+						\item System Architect
+					\end{itemize}
+			\end{itemize}
+		\section{Metrics}
+			\begin{itemize}
+				\item Size - number of pages in the document
+				\item Quality - measure the number of faults of each type found during inspection
+				\item Effort - counts of files, data items, and operations
+			\end{itemize}
+	\chapter{Design}
+		\section{Implementation}
+			\begin{itemize}
+				\item The process of translating the detailed design into code.
+				\item Unit implementation refers to coding the smallest part of the project which can be separately maintained.
+			\end{itemize}
+			\subsection{Selection of a Programming Language}
+				\begin{enumerate}
+					\item Client Requests
+					\item ONly one available on the hardware
+					\item Most Suitable
+						\begin{itemize}
+							\item For the application
+							\item For the environment
+							\item For the cost
+						\end{itemize}
+				\end{enumerate}
+			\subsection{Goals of Implementation}
+				\begin{enumerate}
+					\item Satisfy the requirements specified in the detailed design.
+					\item Conform to standards
+					\item Document work
+					\item Maintain records of time, defects
+					\item Promote maintainability
+				\end{enumerate}
+			\subsection{Steps for Implementation}
+				\begin{enumerate}
+					\item Plan the structure of the code (complete detailed design)
+					\item Self inspect the design or structure
+					\item Type in the code complying to standards
+					\item Self inspect your code
+					\item Compile
+				\end{enumerate}
+			\subsection{Principles of Sound Implementation}
+				\begin{enumerate}
+					\item Try to reuse already existing code if possible.
+					\item Enforce intentions (Code not to be used anywhere else in the application or to be used in other parts?)
+					\item Use qualifiers like final, const, and abstract to enforce intentions
+						\begin{enumerate}
+							\item Final classes can't have descendants
+							\item Final methods can't be overridden in inherited classes
+							\item The value of final variables can't be changed
+						\end{enumerate}
+					\item Make members inaccessible if they are not specifically intended to be accessed directly
+						\begin{enumerate}
+							\item Make attributes private. Access through public accessors
+							\item Make methods private if they are for use only by methods of the same class.
+						\end{enumerate}
+					\item Include examples in documentation
+					\item List methods alphabetically rather than trying to find a calling order among them. (You may group private, protected, and public methods.)
+				\end{enumerate}
+		\section{Programming Practices}
+			\subsection{Sound Programming Practices}
+				\begin{enumerate}
+					\item Use consistent and meaningful variable names
+					\item Use prologue comments for each function giving input, actions, output, author and date, modification and date, files accessed, date tested and approved by
+					\item Use no more than one statement per line
+					\item Make good use of white space
+					\item Restrict levels of nesting to three or four
+					\item Be consistent with indenting
+					\item Read in parameters instead of hard-coding constants
+				\end{enumerate}
+			\subsection{Hints for Working with Pointers}
+				\begin{itemize}
+					\item Avoid using pointer parameters in C++, use references instead.
+					\item Never return a pointer to a new heap reference in C++.
+					\item Collect your garbage
+				\end{itemize}
+			\subsection{Hints for Working with Functions}
+				\begin{itemize}
+					\item Avoid type inquiry. Use virtual functions instead.
+					\item Avoid C++ friend functions except when obviously beneficial.
+					\item Be careful overloading operators.
+				\end{itemize}
+			\subsection{Hints on Working with Exceptions}
+				\begin{itemize}
+					\item Catch only those exceptions you know how to handle.
+					\item If the present method cannot handle the exception, there has to be a handler in an outer scope that can do so.
+					\item If you can handle part of the exception, then handle and rethrow the exception for handling in the outer scope
+				\end{itemize}
+			\subsection{Hints on Error Handling}
+				\begin{enumerate}
+					\item Follow agreed-upon development process; inspect
+					\item Consider introducing classes to encapsulate legal parameter values.
+					\item Where error handling is specified by requirements, implement
+					\item For applications that must never crash, anticipate all possible implementation defects (use defaults)
+					\item Follow a consistent policy for checking parameters
+				\end{enumerate}
+		\section{Programming Standards}
+		    \subsection{Examples of Programming Standards}
+		    	\begin{enumerate}
+		    		\item Naming Conventions
+			    		\begin{enumerate}
+			    			\item Name with concatenated words
+			    			\item Begin class names with capitals
+			    			\item Begin variables with lowercase letters
+			    		\end{enumerate}
+			    	\item Documentation for Methods
+			    		\begin{enumerate}
+			    			\item Preconditions
+			    			\item Postconditions
+			    			\item What the method does
+			    			\item What parameters must be passed
+			    			\item What exceptions it throws
+			    			\item Reason for choice of visibility
+			    			\item Ways in which instance variables are changed
+			    			\item Known bugs
+			    			\item Test description
+			    			\item HIstory of changes
+			    		\end{enumerate}
+			    	\item Within Methods
+			    		\begin{enumerate}
+			    			\item Perform only one operation per line.
+			    			\item Try to keep the size to one screen.
+			    			\item Use parentheses within expressions even if they are not needed by the syntax.
+			    		\end{enumerate}
+			    	\item Documenting Attributes
+			    		\begin{enumerate}
+			    			\item Provide all application invariants
+			    			\item State its purpose
+			    		\end{enumerate}
+		    	\end{enumerate}
+		\section{Tools and Environments for Programming}
+			\begin{itemize}
+				\item IDE (interactive Development Environment) - used for allowing programmers to produce more code in less time
+				\item Drag-and-Drop facilities for forming GUI components
+				\item Graphical representation of directories
+				\item Debuggers
+				\item Wizards
+			\end{itemize}
+		\section{Defect Severity Classification}
+			\begin{itemize}
+				\item Major - Requirements not satisfied
+				\item Medium - Neither major nor trivial
+				\item Trivial - a defect that will not affect operation or maintenance, but just feels a little "meh"
+			\end{itemize}
+		\section{Integration}
+			\subsection{Terms}
+			    \begin{itemize}
+			    	\item Iteration - a coherent stage of construction
+			    	\item Build - one of sever carefully planned activities within an iteration
+			    \end{itemize}
+			\subsection{Roadmap for Integration}
+				\begin{enumerate}
+					\item Decode on the extent of all tests.
+					\item For each iteration:
+						\begin{itemize}
+							\item For each build
+								\begin{enumerate}
+									\item Perform regression testing prior to build
+									\item Retest functions if necessary
+									\item Retest modules if necessary
+									\item Test interfaces if required
+									\item Perform build integration tests
+								\end{enumerate}
+							\item Perform iteration system and usability test
+						\end{itemize}
+					\item Perform installation tests
+					\item Perform acceptance tests
+				\end{enumerate}
+		\section{Testing}
+		    \begin{enumerate}
+		    	\item Integration testing
+		    	\item Interface testing
+		    	\item System testing
+		    	\item Usability testing
+		    	\item Regression testing
+		    	\item Acceptance testing
+		    	\item Installation testing
+		    \end{enumerate}
+			\subsection{Integration Testing}
+				\begin{enumerate}
+					\item Decide how and where to store, reuse and code the integration test
+					\item Execute as many unit tests as time allows
+					\item Exercise regression testing
+					\item Ensure build requirements are properly specified
+					\item Exercise use cases that the build should implement (Test against the SRS)
+					\item Execute the system tests supported by this build
+				\end{enumerate}
+				\subsubsection{Artifacts Involved in Integration Testing}
+					\begin{enumerate}
+						\item Use case model - set of use cases describing the typical usage of the application and sequence diagrams
+						\item Test cases
+						\item Test procedures
+						\item Test evaluation
+						\item Test plan
+						\item Test components - source code for tests
+						\item Defects - report on defects discovered, classified
+					\end{enumerate}
+			\subsection{Interface Testing}
+				\textit{Get this bullet from someone.}
+			\subsection{System Testing}
+				\begin{itemize}
+					\item Black box which validate the entire application against the requirements
+					\item \textit{Messed this line up. Get it from someone.}
+					\item \textit{Messed this line up. Get it from someone.}
+				\end{itemize}
+				\subsubsection{Types of System Testing}
+					\begin{enumerate}
+						\item Reliability/Availability (MTBF)
+						\item Volume (large amounts of input)
+						\item Usability
+						\item Performance
+						\item Configuration
+						\item Compatibility
+						\item Security
+						\item Resource usage
+						\item Installability
+						\item Recoverability
+						\item Serviceablity
+					\end{enumerate}
+				\subsubsection{Usability Testing}
+					\paragraph{Attributes for Usability Testing} 
+						\begin{enumerate}
+							\item Accessibility - ease of navigation
+							\item Responsiveness - average time taken to accomplish specified goals
+							\item Efficiency - how minimal are the require steps to selected functionality
+							\item Comprehensibility - how easy to understand and use with documentation and help
+						\end{enumerate}
+			\subsection{Regression Testing}
+				Verifying that a project continues to pass the same designated set of system tests that it passed before a change was made.
+			\subsection{Acceptance Testing}
+				\begin{itemize}
+					\item Designed to assure the customer that the project agreed upon has, in fact, been built.
+					\item Witnessed officially by a customer representative
+					\item May be the same as some of the system tests
+				\end{itemize}
+			\subsection{Installation Testing}
+				\begin{itemize}
+					\item Testing the application in the actual target hardware organization where it will be executing
+					\item Perform the same system tests used during integration
+				\end{itemize}
+		\section{Test Documentation Standard}
+		    \begin{enumerate}
+		    	\item Introduction
+		    	\item Test plan - items, scope, approach, resources, schedule, personnel
+		    	\item Test design - items, approach and plan in detail
+		    	\item Test cases
+		    	\item Test procedures - steps for setting up and executing the test cases
+		    	\item Test item transmittal report - item under test, physical location of results, person responsible for testing
+		    	\item Test log - chronological record, physical location of test, tester name
+		    	\item Test incident report - record of an event during testing requiring further investigation
+		    	\item Test summary report
+		    \end{enumerate}
+		\section{Transition Iterations}
+		    \begin{itemize}
+		    	\item Find defects through customer use
+		    	\item Test user documentation and help
+		    	\item Determine realistically whether application meets requirements
+		    	\item Retire deployment risks
+		    	\item Satisfy miscellaneous marketing goals
+		    \end{itemize}
+		\section{Alpha Release}
+		    \begin{itemize}
+		    	\item After integration, project is given to in-house users for early prerelease use
+		    	\item Purpose to provide feeback, defect information and advanced knowledge of the product
+		    \end{itemize}
+		\section{Beta Release}
+			\begin{itemize}
+		    	\item After integration - project is given to a part of the customer community with the understanding that they report defects found.
+		    	\item Used to convince customers that there really is a product behind the vendor's promises.
+		    \end{itemize}
+	\chapter{Post-Delivery Maintenance}
+		\paragraph{Why is Post-Delivery Maintenance Necessary?}
+			\begin{enumerate}
+				\item Corrective Maintenance - correcting a fault
+				\item Perfective Maintenance - improving the effectiveness of the product
+			\end{enumerate}
+		\section{Facts About Post-Delivery Maintenance} 
+			\begin{enumerate}
+				\item More time spent on post-delivery maintenance than any other activity
+				\item Approximately 67\% of the product cost
+				\item The most challenging of all aspects of software production
+				\item Incorporates aspects of all of the other workflows of the product.
+				\item The most thankless development task
+			\end{enumerate}
+		\section{Problems with Post-Delivery Maintenance}
+			\begin{enumerate}
+				\item Product may have not been developed with maintenance in mind.
+				\item Not considered glamorous
+				\item Task often given to beginners, not the more experienced programmers
+				\item Must avoid creating more faults when correcting one
+			\end{enumerate}
+		\section{Requirements for Post-Delivery Maintenance Programmers}
+		    \begin{enumerate}
+		    	\item Ability to locate the cause of a fault
+		    	\item Ability to function without good documentation
+		    	\item Ability to maintain documentation of changes
+		    	\item Ability to perform regression testing
+		    	\item Ability to perform requirements analysis, design and implementation for adaptive or perfective maintenance
+		    	\item Ability to design tests for new functionality added
+		    \end{enumerate}
+		\section{Management of Post-Delivery Maintenance}
+		    \begin{enumerate}
+		    	\item Defect report filed by user
+		    	\item Reports may be prioritized
+		    	\item Work given to programmer for repair
+		    	\item Results tested by SQA and documented
+		    	\item Make sure changes do not adversely affect further maintenance
+		    	\item Encourage client to avoid the moving target problem
+		    \end{enumerate}
+		\section{Special Problems with Object-Oriented Maintenance}
+			\begin{enumerate}
+				\item to understand an object, maintainer must understand the object's hierarchy
+				\item \textit{Get bullet from someone.}
+				\item \textit{Get bullet from someone.}
+			\end{enumerate}
+		\section{Reverse Engineering}
+		    \begin{itemize}
+		    	\item The process of recreating the design document and possible the SRS document, given the source code.
+		    	\item Its need is due to the amount of legacy code in the industry
+		    \end{itemize}
+		\section{CASE Tools for Maintenance}
+		    \begin{enumerate}
+		    	\item Version Control
+		    	\item Configuration Control Tool
+		    	\item Pretty Printer
+		    	\item Graphic tools
+		    	\item Display class hierarchy
+		    	\item Defect-tracking tool (Bugzilla)
+		    \end{enumerate}
+	\chapter{Detecting Obsolescence}
+		\begin{itemize}
+			\item \underline{Obsolescence} - the state of being which occurs when an object, service, or practice is no longer wanted even though it may still be in good working order.
+		\end{itemize}
+		\section{Areas to Consider}
+			A solution may be obsolete if...
+		    \begin{itemize}
+		    	\item Your system can't handle increased workloads or the way you do business has changed.
+		    	\item An organization adds headcount instead of reinvesting in technology
+		    	\item The software engineers from your last project are no longer available
+		    	\item Your reporting is less than stellar
+		    	\item The solution doesn't allow you to get back to business quickly
+		    	\item Your organization is witnessing larger-than-normal turnover or if delivering exceptional customer care is becoming a challenge
+		    \end{itemize}
+		\section{Causes of Software Obsolescence}
+		    \begin{enumerate}
+		    	\item Functional Obsolescence
+		    	\item Technological Obsolescence
+		    	\item Logistical Obsolescence
+		    \end{enumerate}
+		    \subsection{Functional Obsolescence}
+		    	\begin{itemize}
+		    		\item The software does not perform in the manner for which it was created
+		    		\item May be cause by hardware changes, requirement changes or other software changes in a larger system
+		    	\end{itemize}
+		    \subsection{Technological Obsolescence}
+		    	\begin{itemize}
+		    		\item Inability to renew licensing agreements
+		    		\item Software maintenance (support) terminates
+		    		\item The original supplier no longer markets and sells the software
+		    		\item More advanced software available
+		    		\item Software written in obsolete, outdated, or inefficient language
+		    	\end{itemize}
+		    \subsection{Logistical Obsolescence}
+		    	\begin{itemize}
+		    		\item Digital media obsolescence
+		    		\item Formatting changes
+		    	\end{itemize}
+		\section{How to Measure Obsolescence}
+			\begin{enumerate}
+				\item Physical Inspection of the code for inefficient layout, structural deficiencies, excessive or deficient capacities
+				\item Comparative Analysis of existing software with a newer version of itself (if available)
+			\end{enumerate}
+		\section{Cost of Management of Software Obsolescence}
+		    \begin{itemize}
+		    	\item Mitigation
+		    	\item Re-development
+		    	\item Re-qualifying
+		    	\item Rehosting
+		    	\item Media Management
+		    \end{itemize}
+		    \subsection{Mitigation}
+		    	\begin{itemize}
+		    		\item \underline{Software License Downgrade} - negotiated with the software vendor and enables the users to expand or extend the authorized use of an older product by purchasing additional licenses of the latest version and applying those licenses to the older product
+		    		\item \underline{Source Code Purchase} - In some cases, the original vendor may allow the customer to purchase the source code for the product \\
+		    		\textit{This may be negotiated in the original contract for the software.}
+		    		\item \underline{Third Party Support} - In some cases a third-party can be contracted to continue support of an obsolete software application
+		    	\end{itemize}
+		    \subsection{Re-Development}
+		    	\begin{itemize}
+		    		\item Software is modified to operate correctly with new application hardware (or with other new software). This can range from retesting the software to re-architecting and may also include: re-integration, data migration, re-training and document revision
+		    	\end{itemize}
+		    \subsection{Re-Qualifying}
+		    	\begin{itemize}
+		    		\item Either modified or unmodified legacy software must be tested in a new environment
+		    	\end{itemize}
+		    \subsection{Rehosting}
+		    	\begin{itemize}
+		    		\item Modifying existing software to operate correctly in a new development environment (also called technology porting). Rehosting is applicable to legacy software systems originally created with languages and systems that have, themselves become obsolete.
+		    	\end{itemize}
+		    \subsection{Media Management}
+		    	\begin{itemize}
+		    		\item Storage and maintenance of the medium the software is archived on is a critical element of software obsolescence.  There are several problems (and costs) involved that depend on the type of media, the method of storing the media, and version control.
+		    	\end{itemize}
+	
+% -----------------------------------------------------------------------------------
+\part{Glossary}
+	\begin{itemize}
+		\item \textbf{Software Engineering} - Application of sound engineering practices to software creation and maintenance.
+		\item \textbf{Specification Document} - Explicitly describes what the product is to do and the constraints under which it must operate
+		\item \textbf{Ambiguity} - One sentence may have more than one interpretation
+		\item \textbf{Incompleteness} - When a relevant fact or requirement is left out
+		\item \textbf{Contradiction} - When two places in the specification document are in conflict
+		\item \textbf{Architectural Design} - Description of the product in terms of modules
+		\item \textbf{Detailed Design} - Description of each module
+		\item \textbf{Tracebility} - Each part of the design can be tracked back to a statement in the specification document
+		\item \textbf{Product Testing} - When the SQA group tests the product in Implementation Phase of development
+		\item \textbf{Maintenance}
+			\begin{itemize}
+				\item \textbf{Corrective Maintenance} - Bug squashing
+				\item \textbf{Enhancement Maintenance} - Updates
+					\begin{itemize}
+						\item \textbf{Perfective} - Clients make new demands
+						\item \textbf{Adaptive} - Changes in the environment of the product require changes in the software
+					\end{itemize}
+			\end{itemize}
+		\item \textbf{Regression Testing} - Ensuring that changes have not affected already working functionality
+		\item \textbf{The Four P's}
+			\begin{itemize}
+				\item \textbf{Process} - Sometimes called the life-cycle model or development sequence
+				\item \textbf{Project} - Set of activities needed to produce the required product
+				\item \textbf{People} - Has to do with team organization and management and the team's relationship with clients, users, and management
+				\item \textbf{Product} - Includes the Spec Doc, Design Doc, Source Code, Executable, and User Manuals
+			\end{itemize}
+		\item \textbf{Structured Programming} - Uses sequence control, iteration, and functions
+		\item \textbf{Object Oriented Paradigm} - Use of objects with data and functionality which can represent real-world entities
+		\item \textbf{Design Patterns} - Stock of reusable design elements
+		\item \textbf{Development Methods}
+			\begin{itemize}
+				\item \textbf{Waterfall Method} - No phase is complete until documentation for that phase has been completed and approved by SQA group
+				\begin{figure}
+					\includegraphics[width=1\textwidth]{waterfall.png}
+					\caption{The Waterfall Method}
+				\end{figure}
+				\item \textbf{Rapid Prototype Model} - Construction of a functional subset of the desired product in order to allow the client and developer to interact
+				\begin{figure}
+					\includegraphics[width=1\textwidth]{rapidPrototype.png}
+					\caption{The Rapid Prototype Method}
+				\end{figure}
+				\item \textbf{Incremental Build Model} - Software is implemented, integrated, and tested as a series of incremental builds
+					\begin{itemize}
+						\item \textbf{Incremental Build} - Code piece providing a specific function
+					\end{itemize}
+				\item \textbf{Spiral Model} - A variation of the Waterfall Method in which each phase is preceded by risk analysis in an attempt to control risk
+				\begin{figure}
+					\includegraphics[width=1\textwidth]{spiral.png}
+					\caption{The Spiral Model}
+				\end{figure}
+			\end{itemize}
+		\item \textbf{Teams}
+			\begin{itemize}
+				\item \textbf{Team} - Group of professionals organized in order to complete the task of creating a large software project
+				\item \textbf{Jelled Team} - Group of people who are so tightly knit that the attitude is that the whole is greater than the sum of the parts
+				\item \textbf{Team Roles}
+					\begin{itemize}
+						\item \textbf{Team Leader} - Responsible for overseeing all aspects of the team project, holds the tie-breaking vote
+						\item \textbf{Technical Lead} - Expert on all technical aspects of the project, in particular the hardware and software used for development
+						\item \textbf{Designer} - Designs the project and breaks the project into smaller pieces (modules) for the programmers
+						\item \textbf{Lead Programmer} - needs to have an understanding of the project as a whole; organizes all of the other programmers
+						\item \textbf{Technical Writer} - Writes all documentation for the project
+						\item \textbf{Configuration Management} - Maintains the code base for the project, could include CVS responsibilities
+						\item \textbf{Quality Assurance (SQA)} - Writes, maintains, and conducts all testing associated with the project
+					\end{itemize}
+			\end{itemize}
+		\item \textbf{Stepwise Refinement} - Process whereby a project is successively decomposed into more detailed instructions
+		\item \textbf{Divide-and-Conquer} - Break a large problem into smaller subproblems that should be easier to solve
+		\item \textbf{Separation of Concerns} - Process of breaking a software project into components which overlap as little as possible in relationship to functionality
+		\item \textbf{CASE Tools} - Computer-Aided Software Engineering
+			\begin{itemize}
+				\item \textbf{UpperCASE} - Front end; used in requirements, analysis, and design workflows
+				\item \textbf{LowerCASE} - Back end; used in implementation and maintenance activities
+				\item \textbf{Data Dictionary} - Computerized list of all data defined within the product (Type and location defined)
+				\item \textbf{Consistency Checker} - Tool which checks that everything in the design is in the spec doc and everything in the spec doc is in the design
+				\item \textbf{Report Generator} - Tool which generates the code necessary for producing a report (Memory Dumps, etc. ?)
+				\item \textbf{Screen Generator} - Tool which generates the code necessary for a data capture screen
+				\item \textbf{Structured Editor} - Text editor designed to understand the structure of a program in a programming language, aiding in syntax fault prevention or early detection
+				\item \textbf{"Pretty Printer"/Formatter} - Code often included with the structured editor which makes use of the language syntax structure to display the code in a standard manner (Indenting, syntax highlighting, etc.)
+				\item \textbf{On-Line Interface Checker} - Editor knows every subprogram declared within the product and its parameter lists
+				\item \textbf{OS Front End} - Tool which allows the programmer to give commands to the OS from within the editor
+				\item \textbf{Source Level Debugger}
+				\item \textbf{Interactive Source Level Debugger}
+				\item \textbf{Version Control Tool} - Keeps detailed record of each version of the project
+				\item \textbf{Configuration Control Tool} - Manages multiple variations
+			\end{itemize}
+		\item \textbf{Configuration} - Specific version of each artifact from which a given version of the complete product is built
+		\item \textbf{Verification} - Determining whether a phase has been correctly carried out (Takes place at the end of the phase)
+		\item \textbf{Validation} - Testing just before a product is delivered to a client to determine if it satisfies the specifications
+		\item \textbf{Inception Phase} - Determine whether it is worthwhile to develop the target product
+		\item \textbf{Elaboration Phase} - Refine the requirements and architecture, monitor the risks, refine the business case, and produce the Software Project Management Plan (SPMP)
+		\item \textbf{Construction Phase} - Produce the first operation-quality version of the product (Beta Release)
+		\item \textbf{Transition Phase} - Aim is to ensure that the client's requirements have been met
+		\item \textbf{Defects}
+			\begin{itemize}
+				\item \textbf{Fault} - Human mistake created in software
+				\item \textbf{Failure} - Observed incorrect behavior due to a fault
+				\item \textbf{Error} - Amount by which a result is incorrect
+				\item \textbf{Defect} - Generic term which encompasses Fault, Failure, and Error
+			\end{itemize}
+		\item \textbf{Software Quality} - Extent to which the product satisfies its expectations
+		\item \textbf{Participant Driven Walkthrough} - Members present lists of things they do not understand and things they think are incorrect to the team that is creating the document that is being tested. The team responds to each item.
+		\item \textbf{Document Driven Walkthrough} - Chair walks the members through the document with stops at the unclear points or possible faults
+		\item \textbf{Inspections}
+			\begin{itemize}
+				\item \textbf{Overview} - Presentation by one individual responsible for producing it, after which it is given to the participants
+				\item \textbf{Preparation} - Participants try to understand the documents using lists of fault types and create checklists
+				\item \textbf{Inspection} - One participant walks through, using the checklists, while the moderator creates the written report
+				\item \textbf{Rework} - Using the written report of faults, the team resolves the faults
+				\item \textbf{Follow-up} - The moderator makes sure that everything in the report has been corrected or addressed and that no new faults were created in repairing the original faults.
+			\end{itemize}
+		\item \textbf{Inspection Rate} - Number of pages inspected per hour (for specifications and designs) or LOC/hr (for code inspection)
+		\item \textbf{Fault Density} - Number of faults per page or per KLOC
+		\item \textbf{Fault Detection Rate} - Number of major and minor faults detected per hour
+		\item \textbf{Fault Detection Efficiency} - Number of major and minor faults detected per person-hour
+		\item \textbf{Unit Testing} - Earliest types of testing, testing the parts of the application (functions, modules, module combinations)
+		\item \textbf{Integration Testing} - Validates the overall functionality of each stage
+		\item \textbf{Acceptance Testing} - Validates the final product
+		\item \textbf{Black Box Test} - Checking correct output for given input as specified by the requirements
+		\item \textbf{White Box Test} - Design test to cover all paths through the application
+		\item \textbf{Gray Box Test} - Consider limited details of the application with some of the black box techniques
+		\item \textbf{Equivalence Partitioning} - Division of the test input data into subsets
+		\item \textbf{Boundary Value Analysis} - Testing for values which separate acceptable and unacceptable ranges
+		\item \textbf{Statement Coverage} - Every statement should be executed by at least one test
+		\item \textbf{Decision Coverage} - Every brand of decision statements is executed by at least one test
+		\item \textbf{Utility} - How useful it is or how it meets the needs of the user
+		\item \textbf{Reliability} - Measure the mean time between failures; reliable software rarely fails
+		\item \textbf{Robustness} - Valid output for valid input, error conditions handled correctly (satisfying the specifications)
+		\item \textbf{Performance} - How well it meets constraints
+		\item \textbf{Correctness} - Valid output for valid input
+		\item \textbf{Module} - Lexically contiguous sequence of statements bounded by boundary symbols, having an associated name
+		\item \textbf{Cohesion} - Degree of interaction within a module
+			\begin{itemize}
+				\item \textbf{Coincidental} - No meaningful relationships among the elements of an entity
+				\item \textbf{Logical} - Performs a series of related actions, one of which is selected by the calling module
+				\item \textbf{Classical or Temporal} - Performs a series of related actions related over time
+				\item \textbf{Procedural} - Performs a series of actions related by the sequence of steps to be followed by the product
+				\item \textbf{Communicational} - Performs a series of actions related by the sequence of steps to be followed by the product performed on the same data (Passing the same value to each function in Procedural Cohesion)
+				\item \textbf{Information} - Performs multiple functions, each with its own entry point and independent code for each action, all performed on the same data structure
+				\item \textbf{Functional} - Performs a single function or action
+			\end{itemize}
+		\item \textbf{Coupling} - Degree of interaction between two modules
+			\begin{itemize}
+				\item \textbf{Content} - Software entity references the contents of another entity
+				\item \textbf{Common} - Software entities reference a shared global data structure
+				\item \textbf{External} - Software entities reference the same externally declared symbol
+				\item \textbf{Control} - One entity passes control elements as arguments to another entity
+				\item \textbf{Stamp} - A data structure is passed but not entirely used
+				\item \textbf{Data} - One entity calls another and are not coupled as described above
+			\end{itemize}
+		\item  \textbf{Abstraction} - A means of achieving stepwise refinement by suppressing unnecessary details and accentuating relevant details
+		\item \textbf{Data Abstraction} - Data structure along with the actions or operations to be performed on that structure
+		\item \textbf{Procedural Abstraction} - Conceptualizing in terms of giving a name to a set of high-level actions which are specified by the body of the procedure
+		\item \textbf{Information Hiding} - Hiding the implementation details of a module from another using it
+		\item \textbf{Abstract Data Type} - Specification of a data type along with the operations on that type
+		\item \textbf{Reuse} - Taking components of one product to be used in a different product with different functionality
+			\begin{itemize}
+				\item \textbf{Accidental/Opportunistic Reuse} - Developers realize that a component from a previous project can be used in a current project
+				\item \textbf{Deliberate/Systematic Reuse} - Components are constructed with the intent that they will be reusable
+			\end{itemize}
+		\item \textbf{Portability} - Software which is significantly easier to modify to run on another platform than it is to recode from scratch
+		\item \textbf{Internal Cost} - Cost to the developer to develop the product
+		\item \textbf{External Cost} - Cost to the client
+		\item \textbf{File} - Collection of logically or physically related records permanently resident in the product (Transaction and Temporary files don't count here)
+		\item \textbf{Flow} - Data interface between the product and the environment (screen of report)
+		\item \textbf{Process} - Functionally defined logical or arithmetic manipulation of the data (Sorting, validating, updating, etc.)
+		\item \textbf{Function Point} - Used to assess the size of the project
+		\item \textbf{Product Metrics} - Measure some aspect of the product itself, such as its size or reliability
+		\item \textbf{Process Metrics} - Used by the developers to deduce information about the software process
+		\item \textbf{Component Reuse} - Element may be used by another program's element
+	\end{itemize}
+% -----------------------------------------------------------------------------------
 \part{Useful Information}
 	\chapter{Test 1}
 		\section{Draw and Discuss}

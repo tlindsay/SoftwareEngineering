@@ -8,6 +8,22 @@ INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/base/size10.clo
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
@@ -15,7 +31,6 @@ INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/xkeyval/keyval.tex
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/glossaries/base/mfirstuc.sty
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/glossaries/base/mfirstuc.sty
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -45,6 +60,28 @@ OUTPUT Software Engineering Notes.glo
 INPUT Software Engineering Notes.aux
 INPUT Software Engineering Notes.aux
 OUTPUT Software Engineering Notes.aux
+INPUT /usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+INPUT /usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
@@ -75,6 +112,15 @@ INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT waterfall.png
+INPUT ./waterfall.png
+INPUT ./waterfall.png
+INPUT rapidPrototype.png
+INPUT ./rapidPrototype.png
+INPUT ./rapidPrototype.png
+INPUT spiral.png
+INPUT ./spiral.png
+INPUT ./spiral.png
 INPUT Software Engineering Notes.aux
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb

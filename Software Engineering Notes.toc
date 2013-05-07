@@ -1,163 +1,247 @@
-\contentsline {part}{I\hspace {1em}Notes}{4}
-\contentsline {chapter}{\numberline {1}Software Life-Cycle Model}{5}
-\contentsline {section}{\numberline {1.1}Overview}{5}
-\contentsline {subsection}{\numberline {1.1.1}Software development Life Cycle (Traditional Approach)}{5}
-\contentsline {subsubsection}{Requirements Phase}{5}
-\contentsline {subsubsection}{Analysis or Specification Phase}{5}
-\contentsline {paragraph}{Problems with the Spec Document}{6}
-\contentsline {subsubsection}{Design Phase}{6}
-\contentsline {subsubsection}{Implementation Phase}{6}
-\contentsline {subsubsection}{Maintenance Phase}{6}
-\contentsline {subsubsection}{Retirement Phase}{7}
-\contentsline {subsection}{\numberline {1.1.2}Four Components of the Software Engineering Enterprise}{7}
-\contentsline {subsubsection}{Process}{7}
-\contentsline {subsubsection}{Project}{7}
-\contentsline {subsubsection}{People}{8}
-\contentsline {subsubsection}{Product}{8}
-\contentsline {chapter}{\numberline {2}Traditional Software Engineering Process}{9}
-\contentsline {subsection}{\numberline {2.0.3}Historical Influences}{9}
-\contentsline {subsection}{\numberline {2.0.4}Component Reuse}{9}
-\contentsline {subsection}{\numberline {2.0.5}Key Expectations of Software Engineering}{9}
-\contentsline {section}{\numberline {2.1}Methods}{10}
-\contentsline {subsection}{\numberline {2.1.1}Waterfall Method}{10}
-\contentsline {subsubsection}{Advantages}{10}
-\contentsline {subsubsection}{Disadvantages}{11}
-\contentsline {subsection}{\numberline {2.1.2}Rapid Prototype Model}{11}
-\contentsline {subsubsection}{Advantages}{11}
-\contentsline {subsubsection}{Disadvantages}{11}
-\contentsline {subsection}{\numberline {2.1.3}Waterfall-Rapid Prototype Hybrid}{11}
-\contentsline {subsection}{\numberline {2.1.4}Incremental Model}{11}
-\contentsline {subsubsection}{Advantages}{11}
-\contentsline {subsubsection}{Disadvantages}{12}
-\contentsline {subsection}{\numberline {2.1.5}Spiral Model}{12}
+\contentsline {part}{I\hspace {1em}Notes}{6}
+\contentsline {chapter}{\numberline {1}Software Life-Cycle Model}{7}
+\contentsline {section}{\numberline {1.1}Overview}{7}
+\contentsline {subsection}{\numberline {1.1.1}Software development Life Cycle (Traditional Approach)}{7}
+\contentsline {subsubsection}{Requirements Phase}{7}
+\contentsline {subsubsection}{Analysis or Specification Phase}{7}
+\contentsline {paragraph}{Problems with the Spec Document}{8}
+\contentsline {subsubsection}{Design Phase}{8}
+\contentsline {subsubsection}{Implementation Phase}{8}
+\contentsline {subsubsection}{Maintenance Phase}{8}
+\contentsline {subsubsection}{Retirement Phase}{9}
+\contentsline {subsection}{\numberline {1.1.2}Four Components of the Software Engineering Enterprise}{9}
+\contentsline {subsubsection}{Process}{9}
+\contentsline {subsubsection}{Project}{9}
+\contentsline {subsubsection}{People}{10}
+\contentsline {subsubsection}{Product}{10}
+\contentsline {chapter}{\numberline {2}Traditional Software Engineering Process}{11}
+\contentsline {subsection}{\numberline {2.0.3}Historical Influences}{11}
+\contentsline {subsection}{\numberline {2.0.4}Component Reuse}{11}
+\contentsline {subsection}{\numberline {2.0.5}Key Expectations of Software Engineering}{11}
+\contentsline {section}{\numberline {2.1}Methods}{12}
+\contentsline {subsection}{\numberline {2.1.1}Waterfall Method}{12}
 \contentsline {subsubsection}{Advantages}{12}
-\contentsline {subsubsection}{Disadvantages}{12}
-\contentsline {section}{\numberline {2.2}Agile Methods}{13}
-\contentsline {subsection}{\numberline {2.2.1}General}{13}
-\contentsline {subsubsection}{Traits}{13}
-\contentsline {subsubsection}{Principles Behind the Agile Manifesto}{13}
-\contentsline {subsection}{\numberline {2.2.2}Refactoring}{14}
-\contentsline {chapter}{\numberline {3}Teams}{15}
-\contentsline {section}{\numberline {3.1}Team Structure}{15}
-\contentsline {subsection}{\numberline {3.1.1}Project Factors Related to Structure of the Team}{15}
-\contentsline {subsection}{\numberline {3.1.2}Jelled Team}{15}
-\contentsline {subsection}{\numberline {3.1.3}Why Don't All Teams Jell?}{16}
-\contentsline {subsection}{\numberline {3.1.4}Necessary Team Traits}{16}
-\contentsline {subsection}{\numberline {3.1.5}How to Make Personality Traits Work}{16}
-\contentsline {section}{\numberline {3.2}Roles}{16}
-\contentsline {section}{\numberline {3.3}Organizational Structures}{17}
-\contentsline {subsection}{\numberline {3.3.1}Democratic Team}{17}
-\contentsline {subsection}{\numberline {3.3.2}Hierarchical or Chief Programmer}{17}
-\contentsline {subsection}{\numberline {3.3.3}Team Manager/Team Leader}{18}
-\contentsline {paragraph}{Technical Organizational Structure for Large Projects}{18}
-\contentsline {subsection}{\numberline {3.3.4}Synchronize-and-Stabilize Team}{18}
-\contentsline {subsection}{\numberline {3.3.5}Agile Team}{18}
-\contentsline {chapter}{\numberline {4}Tools}{19}
-\contentsline {section}{\numberline {4.1}Tools for Software Engineers}{19}
-\contentsline {subsection}{\numberline {4.1.1}Analytic Tools}{19}
-\contentsline {subsubsection}{Stepwise Refinement}{19}
-\contentsline {subsubsection}{Cost-Benefit Analysis}{20}
-\contentsline {subsubsection}{Divide-and-Conquer}{20}
-\contentsline {subsubsection}{Separation of Concerns}{20}
-\contentsline {subsubsection}{Software Metrics}{20}
-\contentsline {subsection}{\numberline {4.1.2}CASE Tools}{21}
-\contentsline {subsubsection}{Types of CASE Tools}{21}
-\contentsline {subsubsection}{Grouped CASE Tools}{22}
-\contentsline {section}{\numberline {4.2}Software Versions}{22}
-\contentsline {chapter}{\numberline {5}UNIFIED PROCESS - I'm not sure what to put here.}{23}
-\contentsline {section}{\numberline {5.1}Phases of Unified Process}{23}
-\contentsline {subsection}{\numberline {5.1.1}Inception Phase}{23}
-\contentsline {subsubsection}{Documentation in the Inception Phase}{24}
-\contentsline {subsection}{\numberline {5.1.2}Elaboration Phase}{24}
-\contentsline {subsubsection}{Elaboration Phase Deliverables}{24}
-\contentsline {subsection}{\numberline {5.1.3}Construction Phase}{25}
-\contentsline {subsubsection}{Construction Phase Deliverables}{25}
-\contentsline {subsection}{\numberline {5.1.4}Transition Phase}{25}
-\contentsline {subsubsection}{Transition Phase Deliverables}{25}
-\contentsline {chapter}{\numberline {6}Testing}{26}
-\contentsline {paragraph}{V and V}{26}
-\contentsline {paragraph}{Use of the Term Testing}{26}
-\contentsline {subsection}{\numberline {6.0.5}Fault, Failure, Error, Defect}{26}
-\contentsline {section}{\numberline {6.1}Software Quality}{26}
-\contentsline {subsection}{\numberline {6.1.1}Software Quality Assurance}{27}
-\contentsline {subsection}{\numberline {6.1.2}Categories of Testing}{27}
-\contentsline {paragraph}{Comparison of Walkthroughs and Inspections}{28}
-\contentsline {section}{\numberline {6.2}Reviews}{28}
-\contentsline {subsection}{\numberline {6.2.1}Strengths of Using Reviews}{28}
-\contentsline {subsection}{\numberline {6.2.2}Metrics for Inspections}{28}
-\contentsline {paragraph}{Goals and Limits of testing}{29}
-\contentsline {subsection}{\numberline {6.2.3}Levels of Testing}{29}
-\contentsline {subsection}{\numberline {6.2.4}Steps for Unit Testing}{29}
-\contentsline {subsection}{\numberline {6.2.5}Test Types}{29}
-\contentsline {subsubsection}{Black Box Testing}{29}
-\contentsline {subsubsection}{White Box Testing}{30}
-\contentsline {subsection}{\numberline {6.2.6}Planning Unit Tests}{30}
-\contentsline {subsection}{\numberline {6.2.7}Unit Testing of Methods}{30}
-\contentsline {subsection}{\numberline {6.2.8}Class Testing}{31}
-\contentsline {subsection}{\numberline {6.2.9}What is Tested During Execution Based Testing?}{31}
-\contentsline {chapter}{\numberline {7}Modules and Objects}{32}
-\contentsline {section}{\numberline {7.1}Modules}{32}
-\contentsline {paragraph}{Cohesion and Coupling}{32}
-\contentsline {subsection}{\numberline {7.1.1}Cohesion}{32}
-\contentsline {subsubsection}{Types of Cohesion}{32}
-\contentsline {paragraph}{Notes on Cohesion}{33}
-\contentsline {subsection}{\numberline {7.1.2}Coupling}{33}
-\contentsline {subsubsection}{Types of Coupling}{33}
-\contentsline {subsection}{\numberline {7.1.3}Abstraction}{33}
-\contentsline {subsection}{\numberline {7.1.4}Data Encapsulation}{34}
-\contentsline {subsubsection}{Procedural Abstraction}{34}
-\contentsline {subsubsection}{Information Hiding}{34}
-\contentsline {subsubsection}{Abstract Data Type (ADT)}{34}
-\contentsline {subsubsection}{Three Concepts Important to the OO Paradigm}{34}
-\contentsline {chapter}{\numberline {8}Reusability and Portability}{35}
-\contentsline {section}{\numberline {8.1}Reuse}{35}
-\contentsline {subsection}{\numberline {8.1.1}Types of Reuse}{35}
-\contentsline {subsubsection}{Advantages of Deliberate Reuse}{35}
-\contentsline {subsubsection}{Disadvantages of Deliberate Reuse}{35}
-\contentsline {subsection}{\numberline {8.1.2}Impediments to Reuse}{36}
-\contentsline {subsection}{\numberline {8.1.3}Types of Design Reuse}{36}
-\contentsline {section}{\numberline {8.2}Design Patterns}{37}
-\contentsline {subsection}{\numberline {8.2.1}List of Design Patterns}{37}
-\contentsline {section}{\numberline {8.3}Portability}{38}
-\contentsline {subsection}{\numberline {8.3.1}Impediments to Portability}{38}
-\contentsline {chapter}{\numberline {9}Planning and Estimating}{39}
-\contentsline {section}{\numberline {9.1}Cost}{39}
-\contentsline {subsection}{\numberline {9.1.1}Cost Estimation}{39}
-\contentsline {subsection}{\numberline {9.1.2}Cost Types}{39}
-\contentsline {section}{\numberline {9.2}Size}{39}
-\contentsline {paragraph}{Metrics for Size}{39}
-\contentsline {subsection}{\numberline {9.2.1}LOC and KDSI}{40}
-\contentsline {subsubsection}{Problems With Using LOC or KDSI}{40}
-\contentsline {subsection}{\numberline {9.2.2}FFP}{40}
-\contentsline {subsection}{\numberline {9.2.3}FP}{40}
-\contentsline {subsubsection}{Converting Function Points to Code}{41}
-\contentsline {subsubsection}{Techniques for Estimation of Size}{41}
-\contentsline {subsection}{\numberline {9.2.4}COCOMO}{41}
-\contentsline {section}{\numberline {9.3}Cost Estimation Techniques}{41}
-\contentsline {subsection}{\numberline {9.3.1}Software Project Management Plan}{42}
-\contentsline {subsubsection}{Work to be Completed}{42}
-\contentsline {subsubsection}{Resources}{42}
-\contentsline {part}{II\hspace {1em}Useful Information}{43}
-\contentsline {chapter}{\numberline {10}Test 1}{44}
-\contentsline {section}{\numberline {10.1}Draw and Discuss}{44}
-\contentsline {section}{\numberline {10.2}Definitions}{44}
-\contentsline {section}{\numberline {10.3}Things to Know}{44}
-\contentsline {chapter}{\numberline {11}Agile Presentations}{45}
-\contentsline {section}{\numberline {11.1}Kanban}{45}
-\contentsline {section}{\numberline {11.2}Agile Scaling Model}{45}
-\contentsline {section}{\numberline {11.3}Agile Software Development}{46}
-\contentsline {section}{\numberline {11.4}Crystal Methods}{46}
-\contentsline {section}{\numberline {11.5}Crystal Clear}{47}
-\contentsline {section}{\numberline {11.6}Agile Modeling}{47}
-\contentsline {section}{\numberline {11.7}Extreme Programming}{48}
-\contentsline {subsection}{\numberline {11.7.1}Phillip Clark}{48}
-\contentsline {subsection}{\numberline {11.7.2}Michael Debs}{49}
-\contentsline {section}{\numberline {11.8}DSDM}{49}
-\contentsline {section}{\numberline {11.9}Scrum}{49}
-\contentsline {section}{\numberline {11.10}Enterprise Agile}{50}
-\contentsline {section}{\numberline {11.11}Feature Driven Development}{51}
-\contentsline {section}{\numberline {11.12}Pragmatic Programming}{52}
-\contentsline {section}{\numberline {11.13}Internet-Speed Development Method}{52}
-\contentsline {section}{\numberline {11.14}Lean Software Development}{52}
-\contentsline {section}{\numberline {11.15}Agile Unified Process}{53}
-\contentsline {section}{\numberline {11.16}Graphical System Design}{54}
+\contentsline {subsubsection}{Disadvantages}{13}
+\contentsline {subsection}{\numberline {2.1.2}Rapid Prototype Model}{13}
+\contentsline {subsubsection}{Advantages}{13}
+\contentsline {subsubsection}{Disadvantages}{13}
+\contentsline {subsection}{\numberline {2.1.3}Waterfall-Rapid Prototype Hybrid}{13}
+\contentsline {subsection}{\numberline {2.1.4}Incremental Model}{13}
+\contentsline {subsubsection}{Advantages}{13}
+\contentsline {subsubsection}{Disadvantages}{14}
+\contentsline {subsection}{\numberline {2.1.5}Spiral Model}{14}
+\contentsline {subsubsection}{Advantages}{14}
+\contentsline {subsubsection}{Disadvantages}{14}
+\contentsline {section}{\numberline {2.2}Agile Methods}{15}
+\contentsline {subsection}{\numberline {2.2.1}General}{15}
+\contentsline {subsubsection}{Traits}{15}
+\contentsline {subsubsection}{Principles Behind the Agile Manifesto}{15}
+\contentsline {subsection}{\numberline {2.2.2}Refactoring}{16}
+\contentsline {chapter}{\numberline {3}Teams}{17}
+\contentsline {section}{\numberline {3.1}Team Structure}{17}
+\contentsline {subsection}{\numberline {3.1.1}Project Factors Related to Structure of the Team}{17}
+\contentsline {subsection}{\numberline {3.1.2}Jelled Team}{17}
+\contentsline {subsection}{\numberline {3.1.3}Why Don't All Teams Jell?}{18}
+\contentsline {subsection}{\numberline {3.1.4}Necessary Team Traits}{18}
+\contentsline {subsection}{\numberline {3.1.5}How to Make Personality Traits Work}{18}
+\contentsline {section}{\numberline {3.2}Roles}{18}
+\contentsline {section}{\numberline {3.3}Organizational Structures}{19}
+\contentsline {subsection}{\numberline {3.3.1}Democratic Team}{19}
+\contentsline {subsection}{\numberline {3.3.2}Hierarchical or Chief Programmer}{19}
+\contentsline {subsection}{\numberline {3.3.3}Team Manager/Team Leader}{20}
+\contentsline {paragraph}{Technical Organizational Structure for Large Projects}{20}
+\contentsline {subsection}{\numberline {3.3.4}Synchronize-and-Stabilize Team}{20}
+\contentsline {subsection}{\numberline {3.3.5}Agile Team}{20}
+\contentsline {chapter}{\numberline {4}Tools}{21}
+\contentsline {section}{\numberline {4.1}Tools for Software Engineers}{21}
+\contentsline {subsection}{\numberline {4.1.1}Analytic Tools}{21}
+\contentsline {subsubsection}{Stepwise Refinement}{21}
+\contentsline {subsubsection}{Cost-Benefit Analysis}{22}
+\contentsline {subsubsection}{Divide-and-Conquer}{22}
+\contentsline {subsubsection}{Separation of Concerns}{22}
+\contentsline {subsubsection}{Software Metrics}{22}
+\contentsline {subsection}{\numberline {4.1.2}CASE Tools}{23}
+\contentsline {subsubsection}{Types of CASE Tools}{23}
+\contentsline {subsubsection}{Grouped CASE Tools}{24}
+\contentsline {section}{\numberline {4.2}Software Versions}{24}
+\contentsline {chapter}{\numberline {5}Unified Process}{25}
+\contentsline {section}{\numberline {5.1}Phases of Unified Process}{25}
+\contentsline {subsection}{\numberline {5.1.1}Inception Phase}{25}
+\contentsline {subsubsection}{Documentation in the Inception Phase}{26}
+\contentsline {subsection}{\numberline {5.1.2}Elaboration Phase}{26}
+\contentsline {subsubsection}{Elaboration Phase Deliverables}{26}
+\contentsline {subsection}{\numberline {5.1.3}Construction Phase}{27}
+\contentsline {subsubsection}{Construction Phase Deliverables}{27}
+\contentsline {subsection}{\numberline {5.1.4}Transition Phase}{27}
+\contentsline {subsubsection}{Transition Phase Deliverables}{27}
+\contentsline {chapter}{\numberline {6}Testing}{28}
+\contentsline {paragraph}{V and V}{28}
+\contentsline {paragraph}{Use of the Term Testing}{28}
+\contentsline {subsection}{\numberline {6.0.5}Fault, Failure, Error, Defect}{28}
+\contentsline {section}{\numberline {6.1}Software Quality}{28}
+\contentsline {subsection}{\numberline {6.1.1}Software Quality Assurance}{29}
+\contentsline {subsection}{\numberline {6.1.2}Categories of Testing}{29}
+\contentsline {paragraph}{Comparison of Walkthroughs and Inspections}{30}
+\contentsline {section}{\numberline {6.2}Reviews}{30}
+\contentsline {subsection}{\numberline {6.2.1}Strengths of Using Reviews}{30}
+\contentsline {subsection}{\numberline {6.2.2}Metrics for Inspections}{30}
+\contentsline {paragraph}{Goals and Limits of testing}{31}
+\contentsline {subsection}{\numberline {6.2.3}Levels of Testing}{31}
+\contentsline {subsection}{\numberline {6.2.4}Steps for Unit Testing}{31}
+\contentsline {subsection}{\numberline {6.2.5}Test Types}{31}
+\contentsline {subsubsection}{Black Box Testing}{31}
+\contentsline {subsubsection}{White Box Testing}{32}
+\contentsline {subsection}{\numberline {6.2.6}Planning Unit Tests}{32}
+\contentsline {subsection}{\numberline {6.2.7}Unit Testing of Methods}{32}
+\contentsline {subsection}{\numberline {6.2.8}Class Testing}{33}
+\contentsline {subsection}{\numberline {6.2.9}What is Tested During Execution Based Testing?}{33}
+\contentsline {chapter}{\numberline {7}Modules and Objects}{34}
+\contentsline {section}{\numberline {7.1}Modules}{34}
+\contentsline {paragraph}{Cohesion and Coupling}{34}
+\contentsline {subsection}{\numberline {7.1.1}Cohesion}{34}
+\contentsline {subsubsection}{Types of Cohesion}{34}
+\contentsline {paragraph}{Notes on Cohesion}{35}
+\contentsline {subsection}{\numberline {7.1.2}Coupling}{35}
+\contentsline {subsubsection}{Types of Coupling}{35}
+\contentsline {subsection}{\numberline {7.1.3}Abstraction}{35}
+\contentsline {subsection}{\numberline {7.1.4}Data Encapsulation}{36}
+\contentsline {subsubsection}{Procedural Abstraction}{36}
+\contentsline {subsubsection}{Information Hiding}{36}
+\contentsline {subsubsection}{Abstract Data Type (ADT)}{36}
+\contentsline {subsubsection}{Three Concepts Important to the OO Paradigm}{36}
+\contentsline {chapter}{\numberline {8}Reusability and Portability}{37}
+\contentsline {section}{\numberline {8.1}Reuse}{37}
+\contentsline {subsection}{\numberline {8.1.1}Types of Reuse}{37}
+\contentsline {subsubsection}{Advantages of Deliberate Reuse}{37}
+\contentsline {subsubsection}{Disadvantages of Deliberate Reuse}{37}
+\contentsline {subsection}{\numberline {8.1.2}Impediments to Reuse}{38}
+\contentsline {subsection}{\numberline {8.1.3}Types of Design Reuse}{38}
+\contentsline {section}{\numberline {8.2}Design Patterns}{39}
+\contentsline {subsection}{\numberline {8.2.1}List of Design Patterns}{39}
+\contentsline {section}{\numberline {8.3}Portability}{40}
+\contentsline {subsection}{\numberline {8.3.1}Impediments to Portability}{40}
+\contentsline {chapter}{\numberline {9}Planning and Estimating}{41}
+\contentsline {section}{\numberline {9.1}Cost}{41}
+\contentsline {subsection}{\numberline {9.1.1}Cost Estimation}{41}
+\contentsline {subsection}{\numberline {9.1.2}Cost Types}{41}
+\contentsline {section}{\numberline {9.2}Size}{41}
+\contentsline {paragraph}{Metrics for Size}{41}
+\contentsline {subsection}{\numberline {9.2.1}LOC and KDSI}{42}
+\contentsline {subsubsection}{Problems With Using LOC or KDSI}{42}
+\contentsline {subsection}{\numberline {9.2.2}FFP}{42}
+\contentsline {subsection}{\numberline {9.2.3}FP}{42}
+\contentsline {subsubsection}{Converting Function Points to Code}{43}
+\contentsline {subsubsection}{Techniques for Estimation of Size}{43}
+\contentsline {subsection}{\numberline {9.2.4}COCOMO}{43}
+\contentsline {section}{\numberline {9.3}Cost Estimation Techniques}{43}
+\contentsline {subsection}{\numberline {9.3.1}Software Project Management Plan}{44}
+\contentsline {subsubsection}{Work to be Completed}{44}
+\contentsline {subsubsection}{Resources}{44}
+\contentsline {chapter}{\numberline {10}Requirements}{45}
+\contentsline {section}{\numberline {10.1}Requirements Analysis}{45}
+\contentsline {subsection}{\numberline {10.1.1}Levels of Requirements Analysis}{45}
+\contentsline {subsection}{\numberline {10.1.2}Why Write Requirements Documents?}{45}
+\contentsline {subsection}{\numberline {10.1.3}Each Requirement Must Be...}{46}
+\contentsline {subsection}{\numberline {10.1.4}Requirements Analysis Process}{46}
+\contentsline {section}{\numberline {10.2}Sources of Requirements}{46}
+\contentsline {section}{\numberline {10.3}Describing C-Requirements}{47}
+\contentsline {subsection}{\numberline {10.3.1}Use Cases}{47}
+\contentsline {subsection}{\numberline {10.3.2}Data Flow Diagrams}{47}
+\contentsline {subsection}{\numberline {10.3.3}State-Transition Diagrams}{47}
+\contentsline {subsection}{\numberline {10.3.4}Developing User Interfaces}{47}
+\contentsline {section}{\numberline {10.4}CASE Tools for Requirements}{49}
+\contentsline {chapter}{\numberline {11}Writing the Specification Document}{50}
+\contentsline {section}{\numberline {11.1}Specification Document}{50}
+\contentsline {subsection}{\numberline {11.1.1}Constraints}{50}
+\contentsline {subsection}{\numberline {11.1.2}Acceptance Criteria}{51}
+\contentsline {subsection}{\numberline {11.1.3}Solution Strategy}{51}
+\contentsline {section}{\numberline {11.2}Specification Document Writing Techniques}{51}
+\contentsline {subsection}{\numberline {11.2.1}Semiformal Methods}{51}
+\contentsline {subsection}{\numberline {11.2.2}Formal Methods}{52}
+\contentsline {subsubsection}{Petri Net}{52}
+\contentsline {subsubsection}{Z}{52}
+\contentsline {paragraph}{Analysis of Z}{53}
+\contentsline {section}{\numberline {11.3}Testing during Specification Phase}{53}
+\contentsline {section}{\numberline {11.4}CASE Tools}{53}
+\contentsline {section}{\numberline {11.5}Metrics}{53}
+\contentsline {chapter}{\numberline {12}Design}{54}
+\contentsline {section}{\numberline {12.1}Implementation}{54}
+\contentsline {subsection}{\numberline {12.1.1}Selection of a Programming Language}{54}
+\contentsline {subsection}{\numberline {12.1.2}Goals of Implementation}{54}
+\contentsline {subsection}{\numberline {12.1.3}Steps for Implementation}{55}
+\contentsline {subsection}{\numberline {12.1.4}Principles of Sound Implementation}{55}
+\contentsline {section}{\numberline {12.2}Programming Practices}{55}
+\contentsline {subsection}{\numberline {12.2.1}Sound Programming Practices}{55}
+\contentsline {subsection}{\numberline {12.2.2}Hints for Working with Pointers}{56}
+\contentsline {subsection}{\numberline {12.2.3}Hints for Working with Functions}{56}
+\contentsline {subsection}{\numberline {12.2.4}Hints on Working with Exceptions}{56}
+\contentsline {subsection}{\numberline {12.2.5}Hints on Error Handling}{56}
+\contentsline {section}{\numberline {12.3}Programming Standards}{57}
+\contentsline {subsection}{\numberline {12.3.1}Examples of Programming Standards}{57}
+\contentsline {section}{\numberline {12.4}Tools and Environments for Programming}{57}
+\contentsline {section}{\numberline {12.5}Defect Severity Classification}{58}
+\contentsline {section}{\numberline {12.6}Integration}{58}
+\contentsline {subsection}{\numberline {12.6.1}Terms}{58}
+\contentsline {subsection}{\numberline {12.6.2}Roadmap for Integration}{58}
+\contentsline {section}{\numberline {12.7}Testing}{58}
+\contentsline {subsection}{\numberline {12.7.1}Integration Testing}{59}
+\contentsline {subsubsection}{Artifacts Involved in Integration Testing}{59}
+\contentsline {subsection}{\numberline {12.7.2}Interface Testing}{59}
+\contentsline {subsection}{\numberline {12.7.3}System Testing}{59}
+\contentsline {subsubsection}{Types of System Testing}{59}
+\contentsline {subsubsection}{Usability Testing}{60}
+\contentsline {paragraph}{Attributes for Usability Testing}{60}
+\contentsline {subsection}{\numberline {12.7.4}Regression Testing}{60}
+\contentsline {subsection}{\numberline {12.7.5}Acceptance Testing}{60}
+\contentsline {subsection}{\numberline {12.7.6}Installation Testing}{60}
+\contentsline {section}{\numberline {12.8}Test Documentation Standard}{61}
+\contentsline {section}{\numberline {12.9}Transition Iterations}{61}
+\contentsline {section}{\numberline {12.10}Alpha Release}{61}
+\contentsline {section}{\numberline {12.11}Beta Release}{61}
+\contentsline {chapter}{\numberline {13}Post-Delivery Maintenance}{62}
+\contentsline {paragraph}{Why is Post-Delivery Maintenance Necessary?}{62}
+\contentsline {section}{\numberline {13.1}Facts About Post-Delivery Maintenance}{62}
+\contentsline {section}{\numberline {13.2}Problems with Post-Delivery Maintenance}{62}
+\contentsline {section}{\numberline {13.3}Requirements for Post-Delivery Maintenance Programmers}{62}
+\contentsline {section}{\numberline {13.4}Management of Post-Delivery Maintenance}{63}
+\contentsline {section}{\numberline {13.5}Special Problems with Object-Oriented Maintenance}{63}
+\contentsline {section}{\numberline {13.6}Reverse Engineering}{63}
+\contentsline {section}{\numberline {13.7}CASE Tools for Maintenance}{64}
+\contentsline {chapter}{\numberline {14}Detecting Obsolescence}{65}
+\contentsline {section}{\numberline {14.1}Areas to Consider}{65}
+\contentsline {section}{\numberline {14.2}Causes of Software Obsolescence}{65}
+\contentsline {subsection}{\numberline {14.2.1}Functional Obsolescence}{66}
+\contentsline {subsection}{\numberline {14.2.2}Technological Obsolescence}{66}
+\contentsline {subsection}{\numberline {14.2.3}Logistical Obsolescence}{66}
+\contentsline {section}{\numberline {14.3}How to Measure Obsolescence}{66}
+\contentsline {section}{\numberline {14.4}Cost of Management of Software Obsolescence}{66}
+\contentsline {subsection}{\numberline {14.4.1}Mitigation}{67}
+\contentsline {subsection}{\numberline {14.4.2}Re-Development}{67}
+\contentsline {subsection}{\numberline {14.4.3}Re-Qualifying}{67}
+\contentsline {subsection}{\numberline {14.4.4}Rehosting}{67}
+\contentsline {subsection}{\numberline {14.4.5}Media Management}{67}
+\contentsline {part}{II\hspace {1em}Glossary}{68}
+\contentsline {part}{III\hspace {1em}Useful Information}{79}
+\contentsline {chapter}{\numberline {15}Test 1}{80}
+\contentsline {section}{\numberline {15.1}Draw and Discuss}{80}
+\contentsline {section}{\numberline {15.2}Definitions}{80}
+\contentsline {section}{\numberline {15.3}Things to Know}{80}
+\contentsline {chapter}{\numberline {16}Agile Presentations}{81}
+\contentsline {section}{\numberline {16.1}Kanban}{81}
+\contentsline {section}{\numberline {16.2}Agile Scaling Model}{81}
+\contentsline {section}{\numberline {16.3}Agile Software Development}{82}
+\contentsline {section}{\numberline {16.4}Crystal Methods}{82}
+\contentsline {section}{\numberline {16.5}Crystal Clear}{83}
+\contentsline {section}{\numberline {16.6}Agile Modeling}{83}
+\contentsline {section}{\numberline {16.7}Extreme Programming}{84}
+\contentsline {subsection}{\numberline {16.7.1}Phillip Clark}{84}
+\contentsline {subsection}{\numberline {16.7.2}Michael Debs}{85}
+\contentsline {section}{\numberline {16.8}DSDM}{85}
+\contentsline {section}{\numberline {16.9}Scrum}{85}
+\contentsline {section}{\numberline {16.10}Enterprise Agile}{86}
+\contentsline {section}{\numberline {16.11}Feature Driven Development}{87}
+\contentsline {section}{\numberline {16.12}Pragmatic Programming}{88}
+\contentsline {section}{\numberline {16.13}Internet-Speed Development Method}{88}
+\contentsline {section}{\numberline {16.14}Lean Software Development}{88}
+\contentsline {section}{\numberline {16.15}Agile Unified Process}{89}
+\contentsline {section}{\numberline {16.16}Graphical System Design}{90}

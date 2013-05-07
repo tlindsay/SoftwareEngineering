@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  18 FEB 2013 23:50
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  6 MAY 2013 01:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -34,6 +34,38 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2012/05/21 v3.02 (NLCT)
 
@@ -44,12 +76,11 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
 
 (/usr/local/texlive/2012/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-\XKV@toks=\toks14
-\XKV@tempa@toks=\toks15
-\XKV@depth=\count88
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+\XKV@depth=\count89
 File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
-
-(/usr/local/texlive/2012/texmf-dist/tex/generic/xkeyval/keyval.tex)))
+))
 (/usr/local/texlive/2012/texmf-dist/tex/latex/glossaries/base/mfirstuc.sty
 Package: mfirstuc 2012/05/21 v1.06 (NLCT)
 
@@ -58,29 +89,29 @@ Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/etex-pkg/etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count89
+\et@xins=\count90
 )
-\etb@tempcnta=\count90
+\etb@tempcnta=\count91
 )
-\@glsmfirst=\toks16
-\@glsmrest=\toks17
+\@glsmfirst=\toks17
+\@glsmrest=\toks18
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks18
-\ex@=\dimen103
+\@emptytoks=\toks19
+\ex@=\dimen105
 )
-\gls@level=\count91
-\@gls@tmpb=\toks19
+\gls@level=\count92
+\@gls@tmpb=\toks20
 \gls@tmplen=\skip43
 \glswrite=\write3
-\glskeylisttok=\toks20
-\glslabeltok=\toks21
-\glsshorttok=\toks22
-\glslongtok=\toks23
+\glskeylisttok=\toks21
+\glslabeltok=\toks22
+\glsshorttok=\toks23
+\glslongtok=\toks24
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
 av.sty
@@ -100,17 +131,17 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTright=\skip46
 \LTpre=\skip47
 \LTpost=\skip48
-\LTchunksize=\count92
-\LTcapwidth=\dimen104
+\LTchunksize=\count93
+\LTcapwidth=\dimen106
 \LT@head=\box26
 \LT@firsthead=\box27
 \LT@foot=\box28
 \LT@lastfoot=\box29
-\LT@cols=\count93
-\LT@rows=\count94
-\c@LT@tables=\count95
-\c@LT@chunks=\count96
-\LT@p@ftn=\toks24
+\LT@cols=\count94
+\LT@rows=\count95
+\c@LT@tables=\count96
+\c@LT@chunks=\count97
+\LT@p@ftn=\toks25
 )
 \glsdescwidth=\skip49
 \glspagelistwidth=\skip50
@@ -120,21 +151,21 @@ sty
 Package: glossary-super 2011/03/28 v3.0 (NLCT)
  (/usr/local/texlive/2012/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count97
-\ST@wd=\dimen105
+\c@tracingst=\count98
+\ST@wd=\dimen107
 \ST@rightskip=\skip51
 \ST@leftskip=\skip52
 \ST@parfillskip=\skip53
-\ST@pageleft=\dimen106
-\ST@headht=\dimen107
-\ST@tailht=\dimen108
-\ST@pagesofar=\dimen109
-\ST@pboxht=\dimen110
-\ST@lineht=\dimen111
-\ST@stretchht=\dimen112
-\ST@prevht=\dimen113
-\ST@toadd=\dimen114
-\ST@dimen=\dimen115
+\ST@pageleft=\dimen108
+\ST@headht=\dimen109
+\ST@tailht=\dimen110
+\ST@pagesofar=\dimen111
+\ST@pboxht=\dimen112
+\ST@lineht=\dimen113
+\ST@stretchht=\dimen114
+\ST@prevht=\dimen115
+\ST@toadd=\dimen116
+\ST@dimen=\dimen117
 \ST@pbox=\box30
 ))
 (/usr/local/texlive/2012/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
@@ -146,159 +177,287 @@ Package: glossary-tree 2011/03/28 v3.0 (NLCT)
 \openout4 = `"Software Engineering Notes.glo"'.
 
 Package glossaries Info: Writing glossary file "Software Engineering Notes".glo
- on input line 12.
+ on input line 13.
  (./Software Engineering Notes.aux)
 \openout1 = `"Software Engineering Notes.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count99
+\scratchdimen=\dimen118
+\scratchbox=\box31
+\nofMPsegments=\count100
+\nofMParguments=\count101
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count102
+\MPscratchDim=\dimen119
+\MPnumerator=\count103
+\makeMPintoPDFobject=\count104
+\everyMPtoPDFconversion=\toks27
+) (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 15.
+(Font)              <12> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 15.
+(Font)              <8> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 15.
- [1
+(Font)              <6> on input line 16.
+
+[1
 
 \openout3 = `"Software Engineering Notes.ist"'.
 
-{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Soft
-ware Engineering Notes.toc
+{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./Software Engineering Notes.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 3.
  [1
 
-]
-[2])
+] [2] [3] [4])
 \tf@toc=\write5
 \openout5 = `"Software Engineering Notes.toc"'.
 
- [3] [4
+ [5] [6
 
 ]
 Chapter 1.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 24.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
 
-Overfull \hbox (1.07054pt too wide) in paragraph at lines 38--39
+Overfull \hbox (1.07054pt too wide) in paragraph at lines 39--40
 []\OT1/cmr/m/n/10 After an-a-lyz-ing the re-quire-ments, con-struct a \OT1/cmr/
 m/it/10 spec-i-fi-ca-tion doc-u-ment \OT1/cmr/m/n/10 which
  []
 
-[5
+[7
 
 ]
-Overfull \hbox (1.44495pt too wide) in paragraph at lines 73--74
+Overfull \hbox (1.44495pt too wide) in paragraph at lines 74--75
 []\OT1/cmr/m/n/10 Adaptive - changes in the en-vi-ron-ment of the prod-uct re-q
 uires changes
  []
 
-[6] [7] [8]
+[8] [9] [10]
 Chapter 2.
-[9
+[11
 
-] [10] [11]
+] [12] [13]
 Missing character: There is no Â in font cmr10!
 Missing character: There is no º in font cmr10!
 Missing character: There is no Â in font cmti10!
 Missing character: There is no º in font cmti10!
- [12] [13]
-Overfull \hbox (12.08388pt too wide) in paragraph at lines 280--281
+ [14] [15]
+Overfull \hbox (12.08388pt too wide) in paragraph at lines 281--282
 []\OT1/cmr/m/n/10 The best ar-chi-tec-tures, re-quire-ments, and de-signs emerg
 e from self-organizing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
  []
 
-[14]
+[16]
 Chapter 3.
-[15
+[17
 
-] [16] [17] [18]
+] [18] [19] [20]
 Chapter 4.
-[19
+[21
 
-] [20] [21] [22]
+] [22] [23] [24]
 Chapter 5.
-[23
+[25
 
-] [24] [25]
+] [26] [27]
 Chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--588
+Underfull \hbox (badness 10000) in paragraph at lines 588--589
 
  []
 
-[26
+[28
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 632--635
+Underfull \hbox (badness 10000) in paragraph at lines 633--636
 
  []
 
-[27] [28] [29] [30] [31]
+[29] [30] [31] [32] [33]
 Chapter 7.
-[32
+[34
 
-] [33] [34]
+] [35] [36]
 Chapter 8.
-[35
+[37
 
-] [36]
+] [38]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no § in font cmr10!
- [37] [38]
+ [39] [40]
 Chapter 9.
-[39
+[41
 
-] [40] [41] [42] [43
-
-]
+] [42] [43] [44]
 Chapter 10.
-[44
-
-]
-Chapter 11.
 [45
 
 ] [46] [47] [48] [49]
-Underfull \hbox (badness 10000) in paragraph at lines 1279--1281
+Chapter 11.
+[50
+
+]
+Overfull \hbox (5.51456pt too wide) in paragraph at lines 1248--1248
+[]\OT1/cmr/bx/n/14.4 Specification Doc-u-ment Writ-ing Tech-niques 
+ []
+
+[51] [52] [53]
+Chapter 12.
+[54
+
+] [55] [56] [57] [58] [59] [60] [61]
+Chapter 13.
+
+Overfull \hbox (14.85464pt too wide) in paragraph at lines 1625--1625
+[]\OT1/cmr/bx/n/14.4 Requirements for Post-Delivery Main-te-nance
+ []
+
+[62
+
+]
+Overfull \hbox (1.92294pt too wide) in paragraph at lines 1634--1634
+[]\OT1/cmr/bx/n/14.4 Management of Post-Delivery Main-te-nance 
+ []
+
+
+Overfull \hbox (19.74788pt too wide) in paragraph at lines 1643--1643
+[]\OT1/cmr/bx/n/14.4 Special Prob-lems with Object-Oriented Main-
+ []
+
+[63] [64]
+Chapter 14.
+[65
+
+] [66] [67] [68
+
+] <waterfall.png, id=230, 520.94624pt x 432.61626pt>
+File: waterfall.png Graphic file (type png)
+
+<use waterfall.png>
+Package pdftex.def Info: waterfall.png used on input line 1774.
+(pdftex.def)             Requested size: 345.0pt x 286.5046pt.
+ [69] <rapidPrototype.png, id=234, 511.9125pt x 423.5825pt>
+File: rapidPrototype.png Graphic file (type png)
+
+<use rapidPrototype.png>
+Package pdftex.def Info: rapidPrototype.png used on input line 1779.
+(pdftex.def)             Requested size: 345.0pt x 285.47281pt.
+ <spiral.png, id=235, 818.05624pt x 708.6475pt>
+File: spiral.png Graphic file (type png)
+
+<use spiral.png>
+Package pdftex.def Info: spiral.png used on input line 1788.
+(pdftex.def)             Requested size: 345.0pt x 298.86261pt.
+ [70 <./waterfall.png>] [71 <./rapidPrototype.png>] [72 <./spiral.png>]
+Overfull \hbox (0.56903pt too wide) in paragraph at lines 1819--1820
+[]\OT1/cmr/bx/n/10 "Pretty Printer"/Formatter \OT1/cmr/m/n/10 - Code of-ten in-
+cluded with the struc-
+ []
+
+[73] [74] [75] [76] [77] [78] [79
+
+]
+Chapter 15.
+[80
+
+]
+Chapter 16.
+[81
+
+] [82] [83] [84] [85]
+Underfull \hbox (badness 10000) in paragraph at lines 2141--2143
 
  []
 
-[50] [51] [52] [53]
+[86] [87] [88] [89]
 
 Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
-[54] (./Software Engineering Notes.aux) ) 
+[90] (./Software Engineering Notes.aux) ) 
 Here is how much of TeX's memory you used:
- 2482 strings out of 493488
- 35154 string characters out of 3141326
- 109603 words of memory out of 3000000
- 5793 multiletter control sequences out of 15000+200000
+ 3727 strings out of 493488
+ 53975 string characters out of 3141326
+ 133023 words of memory out of 3000000
+ 6974 multiletter control sequences out of 15000+200000
  9754 words of font info for 34 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,6n,34p,1473b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,6n,35p,1473b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/font
@@ -308,10 +467,10 @@ type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti10.pfb>
-Output written on "Software Engineering Notes.pdf" (55 pages, 199040 bytes).
+Output written on "Software Engineering Notes.pdf" (91 pages, 372268 bytes).
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
+ 334 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
